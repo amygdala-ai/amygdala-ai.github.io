@@ -1,0 +1,32 @@
+{
+	"founders": [{
+			"id": 1,
+            "img": "static/img/team/rajdeep/profile.png",
+			"name": "Rajdeep Chatterjee",
+			"position": "Professor",
+			"e_mail": "rajdeepfcs@kiit.ac.in",
+			"phone": "",
+            "website": "",
+            "google_scholar": "",
+            "linkedin": "",
+            "facebook": "",
+            "bio": ""
+		},
+		{
+			"id": 2,
+            "img": "static/img/team/tathagatha/profile.png",
+			"name": "Tatagatha Bandopadhyay",
+			"position": "MSc Informatics at TUM",
+			"e_mail": "gata.tatha14@gmail.com",
+			"phone": "+912441139",
+            "website": "http://tathagata.net/",
+            "google_scholar": "https://scholar.google.com/citations?user=GuH4taUAAAAJ&hl=en&oi=ao",
+            "linkedin": "https://de.linkedin.com/in/tathagata-bandyopadhyay",
+            "facebook": "https://www.facebook.com/tathagata.banerjee.731",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		}
+	],
+	"research advisors": [],
+	"student researchers": [],
+	"guest researchers": []
+}

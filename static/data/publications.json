@@ -1,0 +1,34 @@
+[{
+		"id": 1,
+        "img": "static/img/pubs/books.jpg",
+		"title": "EEG based motor imagery classification using SVM and MLP",
+		"authors": "Rajdeep Chatterjee, Tathagata Bandyopadhyay",
+		"author_ids": [1, 2],
+		"date": "2016/1/11",
+		"conference": "2016 2nd International Conference on Computational Intelligence and Networks (CINE)",
+		"link": "https://ieeexplore.ieee.org/document/7556809",
+		"brief": "This paper focuses on the classification of motor imagery of the left-right hand movements from a healthy subject. Elliptic Bandpass filters are used to discard the unwanted signals."
+	},
+	{
+		"id": 2,
+        "img": "static/img/pubs/books.jpg",
+		"title": "Effects of wavelets on quality of features in motor-imagery EEG signal classification",
+		"authors": "Rajdeep Chatterjee, Tathagata Bandyopadhyay, Debarshi Kumar Sanyal",
+		"author_ids": [1, 2],
+		"date": "2016/3/23",
+		"conference": "2016 International Conference on Wireless Communications, Signal Processing and Networking (WiSPNET)",
+		"link": "https://ieeexplore.ieee.org/document/7566356",
+		"brief": "This paper examines the quality of feature set obtained from Wavelet based Energy-entropy with variation of scale and wavelet type. Here motor imagery of left-right hand movement classification problem has been studied."
+	},
+	{
+		"id": 3,
+        "img": "static/img/pubs/books.jpg",
+		"title": "Comparative Analysis of Feature Extraction Techniques in Motor-Imagery EEG Signal Classification",
+		"authors": "Rajdeep Chatterjee, Tathagata Bandyopadhyay, Debarshi Sanyal, Dibyajyoti Guha",
+		"author_ids": [1, 2],
+		"date": "2018",
+		"conference": "INTERNATIONAL CONFERENCE ON SMART SYSTEMS, INNOVATIONS AND COMPUTING (SSIC)",
+		"link": "https://link.springer.com/chapter/10.1007/978-981-10-5828-8_8",
+		"brief": "Hand movement (both physical and imaginary) is linked to the motor cortex region of human brain. This paper aims to compare the left–right hand movement classification performance of different classifiers with respect to different feature extraction techniques."
+	}
+]
