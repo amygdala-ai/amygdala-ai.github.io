@@ -67,5 +67,135 @@
 		"conference": "Recent Developments in Machine Learning and Data Analytics",
 		"link": "https://link.springer.com/chapter/10.1007/978-981-13-1280-9_29",
 		"brief": "This paper describes a novel fast algorithm for automatic segmentation of islets of Langerhans and β-cell region from pancreas histological images for automatic identification of glucose intolerance. The paper also talks about a supervised learning approach for classifying the images based on their morphological features."
+	},
+	{
+		"id": 8,
+		"title": "An overview of the emerging technology: Blockchain",
+		"authors": "Rishav Chatterjee, Rajdeep Chatterjee",
+		"author_ids": [1],
+		"date": "2017/10/28",
+		"conference": "CINE",
+		"link": "https://ieeexplore.ieee.org/document/8307344/",
+		"brief": "A Blockchain is basically a decentralized, distributed ledger of all the transactions or events which takes place only after involving multiple parties. It ensures high level of security as the transactions which takes place are entirely anonymous. We will outline the underlining concepts about this new technology."
+	},
+	{
+		"id": 9,
+		"title": "A novel machine learning based feature selection for motor imagery EEG signal classification in Internet of medical things environment",
+		"authors": "Rajdeep Chatterjee, Tanmoy Maitra, SK Hafizul Islam, Mohammad Mehedi Hassan, Atif Alamri, Giancarlo Fortino",
+		"author_ids": [1],
+		"date": "2019/9/1",
+		"conference": "Future Generation Computer Systems",
+		"link": "https://www.sciencedirect.com/science/article/pii/S0167739X18327699",
+		"brief": "In this paper, the actual feature-set is obtained from Brain Computer Interface (BCI) Competition-II Dataset-III motor-imagery electroencephalogram (EEG) signal using the Adaptive Auto-regressive (AAR) feature extraction technique. Here, a new fuzzified version of discernibility matrix has been proposed to determine a subset of features, which provides the best classification accuracy."
+	},
+	{
+		"id": 10,
+		"title": "Design of two stage cmos operational amplifier in 180nm technology with low power and high cmrr",
+		"authors": "Sayan Bandyopadhyay, Deep Mukherjee, Rajdeep Chatterjee",
+		"author_ids": [1],
+		"date": "2014/7/1",
+		"conference": "International Journal on Recent Trends in Engineering & Technology",
+		"link": "https://www.researchgate.net/publication/265476333_Design_Of_Two_Stage_CMOS_Operational_Amplifier_in_180nm_Technology_With_Low_Power_and_High_CMRR",
+		"brief": "In this paper a CMOS two stage operational amplifier has been presented which operates at 2.5 V power supply at 0.18 micron (ie, 180 nm) technology and whose input is depended on Bias Current. The supply voltage has been scaled down to reduce overall power consumption of the system. The main aim of our work is to decrease power dissipation."
+	},
+	{
+		"id": 11,
+		"title": "An object detection-based few-shot learning approach for multimedia quality assessment",
+		"authors": "Rajdeep Chatterjee, Ankita Chatterjee, SK Islam, Muhammad Khurram Khan",
+		"author_ids": [1],
+		"date": "2022/1/29",
+		"conference": "Multimedia Systems",
+		"link": "https://link.springer.com/article/10.1007/s00530-021-00881-8",
+		"brief": "This study aims to prevent uploading or to tag an image/video with a reasonable percentage of a gun as content. In this paper, object detection architectures such as Faster RCNN, EfficientDet, and YOLOv5 have been used to demonstrate how these techniques can efficiently detect human faces and different types of guns in given multimedia data (images/videos)."
+	},
+	{
+		"id": 12,
+		"title": "Deep learning techniques for observing the impact of the global warming from satellite images of water-bodies",
+		"authors": "Rajdeep Chatterjee, Ankita Chatterjee, SK Islam",
+		"author_ids": [1],
+		"date": "2022/1/6",
+		"conference": "Multimedia Tools and Applications",
+		"link": "https://link.springer.com/article/10.1007/s11042-021-11811-1",
+		"brief": "This paper analyzes the changes in boundaries of different water bodies such as fresh-water lakes and glacial lakes. Over time, the area covered by a water body has been varied due to human interventions or natural causes. Here, variants of Detectron2 instance segmentation architectures have been employed to detect a water-body and compute the changes in its area from the time-lapsed images captured over 32 years, that is, 1984 to 2016."
+	},
+	{
+		"id": 13,
+		"title": "A Siamese Neural Network-Based Face Recognition from Masked Faces",
+		"authors": "Rajdeep Chatterjee, Soham Roy, Satyabrata Roy",
+		"author_ids": [1],
+		"date": "2022/1",
+		"conference": "ANTIC",
+		"link": "https://link.springer.com/chapter/10.1007/978-3-030-96040-7_40",
+		"brief": "In the COVID19 pandemic, we are advised to wear a face mask in public places, which brings difficulty for the security personnel to identify the human face by seeing the partially exposed face. In this paper, a solution has been proposed by leveraging Siamese neural network for human face recognition from the partial human face."
+	},
+	{
+		"id": 14,
+		"title": "Spear Phishing Detection: An Ensemble Learning Approach",
+		"authors": "Shibayan Mondal, Samrajnee Ghosh, Achiket Kumar, SK Hafizul Islam, Rajdeep Chatterjee",
+		"author_ids": [1],
+		"date": "2022/1",
+		"conference": "Data Analytics, Computational Statistics, and Operations Research for Engineers",
+		"link": "https://www.taylorfrancis.com/chapters/edit/10.1201/9781003152392-8/spear-phishing-detection-shibayan-mondal-samrajnee-ghosh-achiket-kumar-sk-hafizul-islam-rajdeep-chatterjee",
+		"brief": "This chapter mainly focuses on finding patterns and labeling posts as possible spear-phishing attacks using machine-learning (ML) algorithms. The classification algorithms categorize structured or unstructured data into a given number of decision classes. There are different classification algorithms, like decision tree, support vector machine, multinomial Naive Bayes, logistic regression, and K-nearest neighbors."
+	},
+	{
+		"id": 15,
+		"title": "Classification of Soil Images using Convolution Neural Networks",
+		"authors": "Kajal Chatterjee, Mohammad S Obaidat, Debabrata Samanta, Balqies Sadoun, SK Hafizul Islam, Rajdeep Chatterjee",
+		"author_ids": [1],
+		"date": "2021/10/15",
+		"conference": "CCCI",
+		"link": "https://ieeexplore.ieee.org/abstract/document/9583192/",
+		"brief": "It can be observed that several critical domain-oriented decisions often depend on the type of soil like farmers might be benefitted from knowing the kind of soil to choose crops accordingly for cultivation. We have employed different Convolution Neural Network (CNN) architectures to identify the soil type accurately in real-time."
+	},
+	{
+		"id": 16,
+		"title": "An AI Approach to Pose-based Sports Activity Classification",
+		"authors": "Rajdeep Chatterjee, Soham Roy, Sk Hafizul Islam, Debabrata Samanta",
+		"author_ids": [1],
+		"date": "2021/8/26",
+		"conference": "SPIN",
+		"link": "https://ieeexplore.ieee.org/abstract/document/9565996/",
+		"brief": "Here, we have proposed an intelligent system to analyze the beautiful game of tennis. With the use of computer vision architecture Detectron2 and activity-based pose estimation and subsequent classification, it can identify an action from a tennis shot (activity). It can produce a performance score for the player based on pose and movement like forehand and backhand."
+	},
+	{
+		"id": 17,
+		"title": "Trident U-Net: An Encoder Fusion for Improved Biomedical Image Segmentation",
+		"authors": "Rajdeep Chatterjee, Soham Roy, SK Islam",
+		"author_ids": [1],
+		"date": "2021/7/19",
+		"conference": "International Conference on Bioengineering and Biomedical Signal and Image Processing",
+		"link": "https://link.springer.com/chapter/10.1007/978-3-030-88163-4_14",
+		"brief": "In this paper, We propose a deep learning framework built on the U-Net architecture and use a combination (triplet) of encoder models to address the semantic segmentation of a biomedical image effectively. An extensive experiment of our proposed Trident U-Net architecture has been done using the CVC-612 and ETIS datasets. The overall performance of the proposed Trident U-Net on both datasets outperforms the existing reportedly best performing models."
+	},
+	{
+		"id": 18,
+		"title": "An Efficient Pneumonia Detection from the Chest X-Ray Images",
+		"authors": "Rajdeep Chatterjee, Ankita Chatterjee, Rohit Halder",
+		"author_ids": [1],
+		"date": "2021/5",
+		"conference": "MIDAS",
+		"link": "https://link.springer.com/chapter/10.1007/978-981-33-4087-9_63",
+		"brief": "In this paper, we have used deep learning approaches to diagnose Pneumonia and further classify them as viral or bacterial. A comparative study has been made to prove that deep learning-based pneumonia image classification is a valid argument for automating the diagnosis process through the web or mobile applications."
+	},
+	{
+		"id": 19,
+		"title": "Impact of Deep Learning on Arts and Archaeology: An Image Classification Point of View",
+		"authors": "Rajdeep Chatterjee, Ankita Chatterjee, Rohit Halder",
+		"author_ids": [1],
+		"date": "2021/5",
+		"conference": "MIDAS",
+		"link": "https://link.springer.com/chapter/10.1007/978-981-33-4087-9_65",
+		"brief": "Here, we have used different deep learning-based transfer learning models to classify the Indic, Egyptian, and Italian sculpture images. We have examined our techniques on popular Kaggle Arts-Image dataset to distinguish five types of arts: drawings, engraving, iconography, painting, and sculpture."
+	},
+	{
+		"id": 20,
+		"title": "Real-Time Speech Emotion Analysis for Smart Home Assistants",
+		"authors": "Rajdeep Chatterjee, Saptarshi Mazumdar, R. Simon Sherratt, Rohit Halder, Tanmoy Maitra, Debasish Giri",
+		"author_ids": [1],
+		"date": "2021/2",
+		"conference": "IEEE Transactions on Consumer Electronics",
+		"link": "https://ieeexplore.ieee.org/document/9352018/",
+		"brief": "The aim of this work is to analyze emotional states in speech and propose a suitable method considering performance verses complexity for deployment in Consumer Electronics home products, and to present a practical live demonstration of the research."
 	}
 ]

@@ -1,5 +1,5 @@
-https://awe42.github.io/amygdala/
-https://awe42.github.io/amygdala/?/publications
-https://awe42.github.io/amygdala/?/openings
-https://awe42.github.io/amygdala/?/team
-https://awe42.github.io/amygdala/?/contact
+https://amygdala-ai.github.io/
+https://amygdala-ai.github.io/publications
+https://amygdala-ai.github.io/openings
+https://amygdala-ai.github.io/team
+https://amygdala-ai.github.io/contact
