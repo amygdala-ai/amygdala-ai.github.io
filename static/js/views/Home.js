@@ -9,8 +9,7 @@ export default class extends AbstractView {
     async getHtml() {
         return `
         <h2 class="liner"> Latest in AI </h2>
-        <div id="news-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel" style="width: 80%; 
-        margin: auto;">
+        <div id="news-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel" style="width: 80%; margin: auto;">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#news-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#news-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -18,25 +17,25 @@ export default class extends AbstractView {
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="10000">
-                <img src="static/img/research/nlp.png" class="d-block" alt="First slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
-                </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                <img src="static/img/research/nlp.png" class="d-block" alt="Second slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
-                </div>
+                    <img src="static/img/research/nlp.png" class="d-block" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
-                <img src="static/img/research/nlp.png" class="d-block" alt="First slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
+                    <img src="static/img/research/nlp.png" class="d-block" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
                 </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="static/img/research/nlp.png" class="d-block" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#news-carousel" data-bs-slide="prev">

@@ -69,15 +69,14 @@ window.addEventListener("popstate", router);
 // Use SPA router
 document.addEventListener("DOMContentLoaded", () => {
     document.body.addEventListener("click", e => {
-        var link;
         if (e.target.matches("[data-link]")) {
-            link = e.target.href;
+            e.preventDefault();
+            navigateTo(e.target.href);
         }
         else if (e.target.parentElement.matches("[data-link]")) {
-            link = e.target.parentElement.href;
+            e.preventDefault();
+            navigateTo(e.target.parentElement.href);
         }
-        e.preventDefault();
-        navigateTo(link);
     });
     router();
 });

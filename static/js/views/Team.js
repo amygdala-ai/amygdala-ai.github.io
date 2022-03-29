@@ -37,7 +37,7 @@ function fetchTeam() {
                     <div class="row">
                         <div class="col">
                             <a href="/team/${element.id}" data-link>
-                                <img class="rounded-circle" src="${element.img}" style="pointer-events: inherit; width: 8.75rem; height: 8.75rem; margin-top: 1vw; margin-bottom: 1vw; border: solid 0.2rem grey;"/>
+                                <img class="rounded-circle" src="${element.img}" style="width: 8.75rem; height: 8.75rem; margin-top: 1vw; margin-bottom: 1vw; border: solid 0.2rem teal;"/>
                             </a>
                         </div>
                     </div>
