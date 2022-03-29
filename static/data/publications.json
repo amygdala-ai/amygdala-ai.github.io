@@ -1,34 +1,71 @@
 [{
 		"id": 1,
-        "img": "static/img/pubs/books.jpg",
 		"title": "EEG based motor imagery classification using SVM and MLP",
 		"authors": "Rajdeep Chatterjee, Tathagata Bandyopadhyay",
 		"author_ids": [1, 2],
 		"date": "2016/1/11",
-		"conference": "2016 2nd International Conference on Computational Intelligence and Networks (CINE)",
+		"conference": "CINE",
 		"link": "https://ieeexplore.ieee.org/document/7556809",
 		"brief": "This paper focuses on the classification of motor imagery of the left-right hand movements from a healthy subject. Elliptic Bandpass filters are used to discard the unwanted signals."
 	},
 	{
 		"id": 2,
-        "img": "static/img/pubs/books.jpg",
 		"title": "Effects of wavelets on quality of features in motor-imagery EEG signal classification",
 		"authors": "Rajdeep Chatterjee, Tathagata Bandyopadhyay, Debarshi Kumar Sanyal",
 		"author_ids": [1, 2],
 		"date": "2016/3/23",
-		"conference": "2016 International Conference on Wireless Communications, Signal Processing and Networking (WiSPNET)",
+		"conference": "WiSPNET",
 		"link": "https://ieeexplore.ieee.org/document/7566356",
 		"brief": "This paper examines the quality of feature set obtained from Wavelet based Energy-entropy with variation of scale and wavelet type. Here motor imagery of left-right hand movement classification problem has been studied."
 	},
 	{
 		"id": 3,
-        "img": "static/img/pubs/books.jpg",
 		"title": "Comparative Analysis of Feature Extraction Techniques in Motor-Imagery EEG Signal Classification",
 		"authors": "Rajdeep Chatterjee, Tathagata Bandyopadhyay, Debarshi Sanyal, Dibyajyoti Guha",
 		"author_ids": [1, 2],
 		"date": "2018",
-		"conference": "INTERNATIONAL CONFERENCE ON SMART SYSTEMS, INNOVATIONS AND COMPUTING (SSIC)",
+		"conference": "SSIC",
 		"link": "https://link.springer.com/chapter/10.1007/978-981-10-5828-8_8",
 		"brief": "Hand movement (both physical and imaginary) is linked to the motor cortex region of human brain. This paper aims to compare the left–right hand movement classification performance of different classifiers with respect to different feature extraction techniques."
+	},
+	{
+		"id": 4,
+		"title": "Dimensionality reduction of EEG signal using fuzzy discernibility matrix",
+		"authors": "Rajdeep Chatterjee, Tathagata Bandyopadhyay, Debarshi Kumar Sanyal, Dibyajyoti Guha",
+		"author_ids": [1, 2],
+		"date": "2017/7/17",
+		"conference": "HSI",
+		"link": "https://ieeexplore.ieee.org/document/8005014",
+		"brief": "High dimensionality of feature space is a problem in supervised machine learning. Redundant or superfluous features either slow down the training process or dilute the quality of classification. In this paper, we propose a fuzzified adaptation of discernibility matrix with four variants of dissimilarity measure to deal with continuous data."
+	},
+	{
+		"id": 5,
+		"title": "Analysis of Pancreas Histological Images for Glucose Intolerance Identification using Wavelet Decomposition",
+		"authors": "Tathagata Bandyopadhyay, Sreetama Mitra, Shyamali Mitra, Luis Rato, Nibaran Das",
+		"author_ids": [2],
+		"date": "2017",
+		"conference": "FICTA",
+		"link": "https://link.springer.com/chapter/10.1007/978-981-10-3153-3_65",
+		"brief": "This paper proposes a way to automatically segment the islets of Langerhans region from the histological image of rat’s pancreas cell and on the basis of some morphological feature extracted from the segmented region the images are classified as normal and pre-diabetic."
+	},
+	{
+		"id": 6,
+		"title": "A Semi-Supervised Learning Approach for Automatic Segmentation of Retinal Lesions using SURF Blob Detector and Locally Adaptive Binarization",
+		"authors": "Tathagata Bandyopadhyay, Jan Kubicek, Marek Penhaker, Juraj Timkovic, David Oczka, Ondrej Krejcar",
+		"author_ids": [2],
+		"date": "2019",
+		"conference": "ACIIDS",
+		"link": "https://link.springer.com/chapter/10.1007/978-3-030-14802-7_27",
+		"brief": "In the clinical ophthalmology, the retinal area is routinely investigated from the retinal images, by the naked eyes. Such subjective assessment may be apparently influenced by ineligible inaccuracies. In this paper, we have proposed a novel segmentation model utilizing the SURF blob detector and locally adaptive binarization."
+	},
+	{
+		"id": 7,
+		"title": "A Fast Algorithm for Automatic Segmentation of Pancreas Histological Images for Glucose Intolerance",
+		"authors": "Tathagata Bandyopadhyay, Shyamali Mitra, Sreetama Mitra, Nibaran Das, Luis Miguel Rato, Mrinal Kanti Naskar",
+		"author_ids": [2],
+		"date": "2018/9/11",
+		"conference": "Recent Developments in Machine Learning and Data Analytics",
+		"link": "https://link.springer.com/chapter/10.1007/978-981-13-1280-9_29",
+		"brief": "This paper describes a novel fast algorithm for automatic segmentation of islets of Langerhans and β-cell region from pancreas histological images for automatic identification of glucose intolerance. The paper also talks about a supervised learning approach for classifying the images based on their morphological features."
 	}
 ]

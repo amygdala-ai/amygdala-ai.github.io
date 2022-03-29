@@ -32,20 +32,20 @@ function fetchPubs() {
         if (currYear != year) {
             year = currYear;
             resultHtml += `
-            <h4 class="liner"> ${year} </h4>
+            <h2 class="liner"> ${year} </h2>
             `
         }
         resultHtml += `
         <div class="row" style="font-family: var(--bs-font-sans-serif); margin: 1rem !important">
             <div class="col-lg-3" style="vertical-align: middle; text-align: center">
-                    <a href="${element.link}"> <img class="thumbnail" src="${element.img}" style="width:10rem; height:10rem; margin-bottom: 1.25rem"></a>
+                    <a href="${element.link}" external> <img class="thumbnail" src="static/img/pubs/${element.id}.jpg" onerror=this.src="static/img/pubs/books.jpg"></a>
             </div>
             <div class="col-lg-9">
                 <table cellpadding="2">
                     <thead>
                     <tr>
                         <th class="text-left">     
-                        <a class="link" href="${element.link}"> ${element.title} </a>
+                        <a class="link" href="${element.link}" external> ${element.title} </a>
                     </th>
                     </tr>
                     </thead>

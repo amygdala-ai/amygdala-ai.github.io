@@ -1,29 +1,31 @@
 {
 	"founders": [{
 			"id": 1,
-            "img": "static/img/team/rajdeep/profile.png",
+            "img": "static/img/team/rajdeep/profile.jpg",
 			"name": "Rajdeep Chatterjee",
-			"position": "Professor",
+			"position": "Associate Professor at KIIT",
 			"e_mail": "rajdeepfcs@kiit.ac.in",
 			"phone": "",
-            "website": "",
-            "google_scholar": "",
-            "linkedin": "",
+            "website": "https://sites.google.com/kiit.ac.in/rajdeep/home",
+            "google_scholar": "https://scholar.google.com/citations?user=BozHYf4AAAAJ&hl=en&oi=ao",
+            "linkedin": "https://in.linkedin.com/in/dr-rajdeep-chatterjee-60352325",
             "facebook": "",
-            "bio": ""
+			"twitter": "https://twitter.com/rajdeep_kiit",
+            "bio": "Rajdeep Chatterjee received his Bachelor of Engineering in Computer Science and Engineering from The University of Burdwan in 2008. He completed both his Master of Technology and Ph.D. in Computer Science and Engineering from KIIT Deemed to be University in 2011 and 2020, respectively. He received MHRD (Govt. of India) scholarship in his masters for possessing All India Rank 1410 in GATE-2008. He started his professional career as Project Linked Person at Machine Intelligence Unit, Indian Statistical Institute, Kolkata. He is currently working as an Assistant Professor at School of Computer Engineering, KIIT Deemed to be University, Bhubaneswar, India. Besides, he is associated as an expert member in the Cognitive Systems and Cybernetics Research Lab., MIU, ISI Kolkata, India. He is also one of the founding members of the international conference series on Computational Intelligence & Networks (http://www.cineconf.org). He has published research articles in many reputed international conferences and journals. He is a regular reviewer of various reputed journals such as Medical & Biological Eng. & Computing (SCI-E, IF: 2.602), IEEE Transactions on Biomedical Engineering (SCI-E, IF: 4.538), IEEE Journal of Biomedical and Health Informatics (SCI-E, IF: 5.223), Computers in Biology and Medicine (SCI-E, IF: 4.589), IEEE Transactions on Emerging Topics in Computational Intelligence (Scopus, IF: 8.28), Evolutionary Intelligence (Scopus, DBLP), etc. His research areas include Brain-Computer Interface, Machine Learning, Deep Learning and Computer Vision."
 		},
 		{
 			"id": 2,
-            "img": "static/img/team/tathagatha/profile.png",
+            "img": "static/img/team/tathagatha/profile.jpeg",
 			"name": "Tatagatha Bandopadhyay",
 			"position": "MSc Informatics at TUM",
-			"e_mail": "gata.tatha14@gmail.com",
-			"phone": "+912441139",
+			"e_mail": "tathagata.bandyopadhyay@tum.de",
+			"phone": "",
             "website": "http://tathagata.net/",
             "google_scholar": "https://scholar.google.com/citations?user=GuH4taUAAAAJ&hl=en&oi=ao",
             "linkedin": "https://de.linkedin.com/in/tathagata-bandyopadhyay",
             "facebook": "https://www.facebook.com/tathagata.banerjee.731",
-            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+			"twitter": "",
+            "bio": "Tathagata Bandyopadhyay is currently pursuing his MSc. in Informatics at Technical University of Munich, Germany with specialization in Computer Vision, Deep Learning and Scientific Computing. Before , he worked as a software engineer at Dell Technologies where he was responsible for developing a market competition based dynamic pricing model using statistics and machine learning algorithms. He received his B.Tech in Computer Science and Engineering in 2017 from KIIT University, India with Founder's Gold Medal for all round performance  across all programs of the university. His research interest includes audio source separation, audio retrieval, Brain Computer Interface (BCI) with EEG Signals, Bio-Medical Image processing and Computer Vision applications. He has seven publications as listed below."
 		}
 	],
 	"research advisors": [],

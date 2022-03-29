@@ -55,73 +55,61 @@ export default class extends AbstractView {
         </p>
 
         <h2 class="liner"> Research Areas </h2>
-        <div id="research-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
-                <div class="row">
-                    <div class="card col-md-4">
-                        <img src="static/img/research/cv.jpg" class="card-img-top" alt="Computer Vision">
-                        <div class="card-body">
-                            <h4 class="card-title">Computer Vision</h4>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is
-                                a little bit longer.</p>
-                        </div>
-                    </div>
-                    <div class="card col-md-4">
-                        <img src="static/img/research/biomedical.png" class="card-img-top" alt="Biomedical Image Processing">
-                        <div class="card-body">
-                            <h4 class="card-title">Biomedical Image Processing</h4>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is
-                                a little bit longer.</p>
-                        </div>
-                    </div>
-                    <div class="card col-md-4">
-                        <img src="static/img/research/bci.jpg" class="card-img-top" alt="Brain-Computer Interface & Biosignal Processing">
-                        <div class="card-body">
-                            <h4 class="card-title">Brain-Computer Interface & Biosignal Processing</h4>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is
-                                a little bit longer.</p>
-                        </div>
-                    </div>
+        <div style="display: inline-block; padding-bottom: 2rem;">
+            <div class="img-container">
+                <div class="content">
+                    <div class="content-overlay"></div>
+                    <img class="content-image" src="static/img/research/cv.jpg">
+                    <h3 class="content-title">Computer Vision</h3>
+                    <p class="content-details fadeIn-bottom">This is a short description</p>
+                    </a>
                 </div>
             </div>
-            <div class="carousel-item" data-bs-interval="10000">
-                <div class="row">
-                    <div class="card col-md-4">
-                        <img src="static/img/research/nlp.png" class="card-img-top" alt="Text Processing & NLP">
-                        <div class="card-body">
-                            <h4 class="card-title">Text Processing & NLP</h4>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is
-                                a little bit longer.</p>
-                        </div>
-                    </div>
-                    <div class="card col-md-4">
-                        <img src="static/img/research/audio.jpg" class="card-img-top" alt="Speech & Audio Signal Understanding">
-                        <div class="card-body">
-                            <h4 class="card-title">Speech & Audio Signal Understanding</h4>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is
-                                a little bit longer.</p>
-                        </div>
-                    </div>
-                    <div class="card col-md-4">
-                        <img src="static/img/research/gis.jpg" class="card-img-top" alt="ML in Geographic Information Systems">
-                        <div class="card-body">
-                            <h4 class="card-title">ML in Geographic Information Systems</h4>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is
-                                a little bit longer.</p>
-                        </div>
-                    </div>
+            <div class="img-container">
+                <div class="content">
+                    <div class="content-overlay"></div>
+                    <img class="content-image" src="static/img/research/biomedical.png">
+                    <h3 class="content-title">Biomedical Image Processing</h3>
+                    <p class="content-details fadeIn-bottom">This is a short description</p>
+                    </a>
                 </div>
             </div>
-        </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#research-carousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#research-carousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+            <div class="img-container">
+                <div class="content">
+                    <div class="content-overlay"></div>
+                    <img class="content-image" src="static/img/research/bci.jpg">
+                    <h3 class="content-title">Brain-Computer Interface & Biosignal Processing</h3>
+                    <p class="content-details fadeIn-bottom">This is a short description</p>
+                    </a>
+                </div>
+            </div>
+            <div class="img-container">
+                <div class="content">
+                    <div class="content-overlay"></div>
+                    <img class="content-image" src="static/img/research/nlp.png">
+                    <h3 class="content-title">Text Processing & NLP</h3>
+                    <p class="content-details fadeIn-bottom">This is a short description</p>
+                    </a>
+                </div>
+            </div>
+            <div class="img-container">
+                <div class="content">
+                    <div class="content-overlay"></div>
+                    <img class="content-image" src="static/img/research/audio.png">
+                    <h3 class="content-title">Speech & Audio Signal Understanding</h3>
+                    <p class="content-details fadeIn-bottom">This is a short description</p>
+                    </a>
+                </div>
+            </div>
+            <div class="img-container">
+                <div class="content">
+                    <div class="content-overlay"></div>
+                    <img class="content-image" src="static/img/research/gis.jpg">
+                    <h3 class="content-title">ML in Geographic Information Systems</h3>
+                    <p class="content-details fadeIn-bottom">This is a short description</p>
+                    </a>
+                </div>
+            </div>
         </div>
 
         <h2 class="liner"> Collaborators </h2>

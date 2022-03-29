@@ -31,7 +31,7 @@ function fetchPersonBio(person_id) {
         </div>
         <div class="row" style="margin-top: 0.625rem; margin-bottom: 0.625rem; align-items: center;">
             <div class="col-xs-8 col-sm-6 col-md-6 col-lg-6 text-end">
-                <img class="rounded-circle" height="200px" width="200px" src="../${foundId.img}" style="border: solid 0.25rem black;">
+                <img class="rounded-circle" height="200px" width="200px" src="../${foundId.img}" style="border: solid 0.2rem grey;">
             </div>
             <div class="col-xs-8 col-sm-6 col-md-6 col-lg-6 text-start" style="display: flex; flex-direction: column; gap: 0.5rem">
                 <div>
@@ -53,10 +53,33 @@ function fetchPersonBio(person_id) {
         }
         resultHtml += `
                 <div style="display:flex; gap: 0.75rem;">
+                `
+        if (foundId.google_scholar) {
+            resultHtml += `
                     <a href="${foundId.google_scholar}" class="link" target="_blank"><span class="ai ai-google-scholar-square fa-lg" style="color: teal"></span></a>
+            `
+        }
+        if (foundId.linkedin) {
+            resultHtml += `
                     <a href="${foundId.linkedin}" class="link" target=" _blank"><span class="fa fa-linkedin-square fa-lg" style="color: teal"></span></a>
+            `
+        }
+        if (foundId.website) {
+            resultHtml += `
                     <a href="${foundId.website}" class="link" target="_blank"><span class="fa fa-globe fa-lg" style="color: teal"></span></a>
+            `
+        }
+        if (foundId.facebook) {
+            resultHtml += `
                     <a href="${foundId.facebook}" class="link" target="_blank"><span class="fa fa-facebook-square fa-lg" style="color: teal"></span></a>
+            `
+        }
+        if (foundId.twitter) {
+            resultHtml += `
+                    <a href="${foundId.twitter}" class="link" target="_blank"><span class="fa fa-twitter-square fa-lg" style="color: teal"></span></a>
+            `
+        }
+        resultHtml += `
                 </div>
             </div>
         </div>
@@ -66,7 +89,7 @@ function fetchPersonBio(person_id) {
         <div class="row">
             <h2 class="liner"> Bio </h2>
         </div>
-        <div class="row" style="margin-bottom: 1.5rem;">
+        <div class="row" style="text-align: justify; margin-bottom: 1.5rem;">
             <div>${foundId.bio}</div>
         </div>
         `
@@ -109,7 +132,7 @@ function fetchPersonPubs(person_id) {
         resultHtml += `
         <div class="row" style="font-family: var(--bs-font-sans-serif); margin: 1rem !important">
             <div class="col-lg-3" style="vertical-align: middle; text-align: center">
-                    <a href="${element.link}"> <img class="thumbnail" src="../${element.img}" style="width:10rem; height:10rem; margin-bottom: 1.25rem"></a>
+                    <a href="${element.link}"> <img class="thumbnail" src="../static/img/pubs/${element.id}.jpg" onerror=this.src="../static/img/pubs/books.jpg"></a>
             </div>
             <div class="col-lg-9">
                 <table cellpadding="2">
