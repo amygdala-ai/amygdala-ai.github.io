@@ -8,10 +8,11 @@ export default class extends AbstractView {
 
     async getHtml() {
         return `
-            <h2 class="liner">Coming soon.</h2>
+            <h2 class="liner">Any questions?</h2>
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Please write to us your queries or suggestions to the following email id. Ideally, you should be getting a response within two days, if not, please feel free to write a short reminder.
             </p>
+            <p style="font-weight:bold">Email Id: amygdalaai@gmail.com </p>
         `;
     }
 }
