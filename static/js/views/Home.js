@@ -174,7 +174,7 @@ export default class extends AbstractView {
          <div class="content-overlay"></div>
          <img class="content-image" src="static/img/research/cv.jpg">
          <h3 class="content-title">Computer Vision</h3>
-         <p class="content-details fadeIn-bottom">This is a short description</p>
+         <p class="content-details fadeIn-bottom">In this subdomain, we work on problems like object detection, segmentation and tracking in images or videos. Some of the examples include activity detection from body joint tracking, 3D pose estimation, image classification, object localization in 2D and 3D scenes, face recognition with mask constraints and so on.</p>
          </a>
       </div>
    </div>
@@ -183,7 +183,7 @@ export default class extends AbstractView {
          <div class="content-overlay"></div>
          <img class="content-image" src="static/img/research/biomedical.png">
          <h3 class="content-title">Biomedical Image Processing</h3>
-         <p class="content-details fadeIn-bottom">This is a short description</p>
+         <p class="content-details fadeIn-bottom">This subdomain deals with segmentation and classification of MRI, X-RAY, CT or Histopathology images to aid the medical practitioners in faster disease diagnosis. Some examples include Retinal Lesions identification in Fundus images, pneumonia detection from chest X-Ray and so on.</p>
          </a>
       </div>
    </div>
@@ -192,7 +192,7 @@ export default class extends AbstractView {
          <div class="content-overlay"></div>
          <img class="content-image" src="static/img/research/bci.jpg">
          <h3 class="content-title">Brain-Computer Interface & Biosignal Processing</h3>
-         <p class="content-details fadeIn-bottom">This is a short description</p>
+         <p class="content-details fadeIn-bottom">Here we focus on brain state discrimination with non-invasive methods like EEG or f-MRI signals and use that to communicate with the computers directly. Some examples include motor imagery intention (like limb movement) recognition, attention and cognitive load estimation, emotion recognition and so on.</p>
          </a>
       </div>
    </div>
@@ -201,7 +201,7 @@ export default class extends AbstractView {
          <div class="content-overlay"></div>
          <img class="content-image" src="static/img/research/nlp.png">
          <h3 class="content-title">Text Processing & NLP</h3>
-         <p class="content-details fadeIn-bottom">This is a short description</p>
+         <p class="content-details fadeIn-bottom">Here our focus is mostly on developing data efficient and easily customizable intelligent chatbots and text summarization tools with mixed language support.</p>
          </a>
       </div>
    </div>
@@ -210,7 +210,7 @@ export default class extends AbstractView {
          <div class="content-overlay"></div>
          <img class="content-image" src="static/img/research/audio.png">
          <h3 class="content-title">Speech & Audio Signal Understanding</h3>
-         <p class="content-details fadeIn-bottom">This is a short description</p>
+         <p class="content-details fadeIn-bottom">Here we work on automatic speech recognition (ASR), speech enhancement, blind source separation from single channel audio, music matching, content-based audio retrieval and so on.</p>
          </a>
       </div>
    </div>
@@ -219,7 +219,7 @@ export default class extends AbstractView {
          <div class="content-overlay"></div>
          <img class="content-image" src="static/img/research/gis.jpg">
          <h3 class="content-title">ML in Geographic Information Systems</h3>
-         <p class="content-details fadeIn-bottom">This is a short description</p>
+         <p class="content-details fadeIn-bottom">Here we deal with satellite-imagery and other Geo-Spatial data to build predictive models to ease site selection for different purposes like heavy industry, renewable energy farms, corporate office and so on.  </p>
          </a>
       </div>
    </div>
