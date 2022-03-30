@@ -16,7 +16,7 @@
 		{
 			"id": 2,
             "img": "static/img/team/tathagatha/profile.jpeg",
-			"name": "Tatagatha Bandopadhyay",
+			"name": "Tathagata Bandyopadhyay",
 			"position": "MSc Informatics at TUM",
 			"e_mail": "tathagata.bandyopadhyay@tum.de",
 			"phone": "",
@@ -29,6 +29,7 @@
 		}
 	],
 	"research advisors": [],
-	"student researchers": [],
-	"guest researchers": []
+	"mentors": [],
+	"research associates": [],
+	"web and media": [],
 }
