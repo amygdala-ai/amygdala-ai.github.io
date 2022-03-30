@@ -75,7 +75,7 @@ export default class extends AbstractView {
                     mso-bidi-font-family:Calibri;mso-ansi-language:EN-GB'>
                     Our goal is to co-operate,
                     complement and collaborate globally to push the current state of the arts in
-                    varied subdomains of artificial intelligence and machine learning research. 
+                    varied subdomains of artificial intelligence and machine learning research with sustainable development goals. 
                     <o:p></o:p>
                 </span>
             </p>
