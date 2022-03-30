@@ -236,3 +236,11 @@ body, html {
 .fadeIn-right{
   left: 80%;
 }
+
+.hideOnHover{
+  display: block;
+}
+
+.hideOnHover:hover{
+  display: none;
+}
