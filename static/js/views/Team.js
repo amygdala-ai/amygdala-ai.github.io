@@ -58,7 +58,7 @@ function fetchTeam() {
 export default class extends AbstractView {
     constructor(params) {
         super(params);
-        this.setTitle("Team");
+        this.setTitle("Amygdala AI: Team");
     }
 
     async getHtml() {

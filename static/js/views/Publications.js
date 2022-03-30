@@ -37,10 +37,10 @@ function fetchPubs() {
         }
         resultHtml += `
         <div class="row" style="font-family: var(--bs-font-sans-serif); margin: 1rem !important">
-            <div class="col-lg-3" style="vertical-align: middle; text-align: center">
+            <div style="width: 25%; vertical-align: middle; text-align: center">
                     <a href=${element.link} target="_blank"> <img class="thumbnail" src="static/img/pubs/${element.id}.jpg" onerror=this.src="static/img/pubs/books.jpg"></a>
             </div>
-            <div class="col-lg-9">
+            <div style="width: 75%">
                 <table cellpadding="2">
                     <thead>
                     <tr>
@@ -65,7 +65,7 @@ function fetchPubs() {
 export default class extends AbstractView {
     constructor(params) {
         super(params);
-        this.setTitle("Publications");
+        this.setTitle("Amygdala AI: Publications");
     }
 
     async getHtml() {

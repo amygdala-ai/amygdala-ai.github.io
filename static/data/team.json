@@ -16,7 +16,7 @@
 		{
 			"id": 2,
             "img": "static/img/team/tathagatha/profile.jpeg",
-			"name": "Tathagata Bandyopadhyay",
+			"name": "Tathagatha Bandopadhyay",
 			"position": "MSc Informatics at TUM",
 			"e_mail": "tathagata.bandyopadhyay@tum.de",
 			"phone": "",
@@ -30,6 +30,18 @@
 	],
 	"research advisors": [],
 	"mentors": [],
-	"research associates": [],
-	"web and media": []
+	"web & media": [{
+		"id": 3,
+		"img": "static/img/team/anish/profile.jpg",
+		"name": "Anish Pathak",
+		"position": "Full Stack Developer",
+		"e_mail": "anish.pathak5@gmail.com",
+		"phone": "",
+		"website": "",
+		"google_scholar": "",
+		"linkedin": "",
+		"facebook": "",
+		"twitter": "",
+		"bio": "Anish Pathak is a software engineer with 2+ years of work experience. He is highly motivated by research applications with a real-world impact and is currently aspiring to pursue a master's in Computer Science to further his knowledge."
+	}]
 }

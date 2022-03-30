@@ -2,6 +2,9 @@
 body, html {
   height: 100%;
 }
+a {
+  text-decoration: none !important;
+}
 
 /* ---- particles.js container ---- */
 #particles-js {
@@ -134,9 +137,9 @@ body, html {
       0 8px 8px hsl(0deg 0% 0% / 0.075),
       0 16px 16px hsl(0deg 0% 0% / 0.075)
     ;
-  width: 14rem; 
-  height: 12rem; 
-  margin-bottom: 1.25rem
+  max-width: 100%;
+  aspect-ratio: 1;
+  margin-bottom: 1.25rem;
 }
 .footer {
   position: relative;
@@ -144,9 +147,38 @@ body, html {
   height: 1rem;
 }
 
+/* ---- carousel ---- */
+.carousel-indicators {
+  position: relative !important;
+}
+.carousel-control-prev, .carousel-control-next {
+  width: 5% !important;
+}
+.carousel-item {
+  text-align: center;
+}
+.carousel-item img {
+  width: 90%;
+  margin: auto;
+  height: 25rem;
+  object-fit: fill;
+  border-radius: 0.5rem;
+}
+.carousel-item .carousel-caption {
+  width: 90%;
+  margin: auto;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  color: white !important;
+  background: rgba(0,0,0,0.4);
+  padding: 1.25rem;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
 /* ---- mosaic ---- */
 .img-container{
-  padding: 1rem 0;
+  padding: 1rem;
   float: left;
   width: 50%;
 }
@@ -159,7 +191,6 @@ body, html {
 .content {
   position: relative;
   width: 100%;
-  max-width: 450px;
   margin: auto;
   overflow: hidden;
   border-radius: 1rem;
@@ -202,6 +233,9 @@ body, html {
   -moz-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+.content:hover .content-title{
+  opacity: 0;
+}
 .content-details {
   color: white;
   position: absolute;
@@ -209,7 +243,7 @@ body, html {
   padding-left: 1em;
   padding-right: 1em;
   width: 100%;
-  top: 65%;
+  top: 50%;
   left: 50%;
   opacity: 0;
   -webkit-transform: translate(-50%, -50%);
@@ -220,7 +254,7 @@ body, html {
   transition: all 0.3s ease-in-out 0s;
 }
 .content:hover .content-details{
-  top: 65%;
+  top: 50%;
   left: 50%;
   opacity: 1;
 }
