@@ -72,6 +72,20 @@
 			"twitter": "",
             "bio": "Ankita Chatterjee received the Bachelor of Technology in Computer Science and Engineering from W.B.U.T, India and Master of Technology in Computer Science and Engineering from KIIT Deemed to be University, Bhubaneswar, India. Currently, she is working as a Junior Research Fellow (JRF) at IIT Bhubaneswar, India. Her research interests include Brain-Computer Interface, Machine Learning, Computer Vision and Deep Learning."
 		},
+		{
+			"id": 6,
+            "img": "static/img/team/soham/profile.jpg",
+			"name": "Soham Roy",
+			"position": "MSc in Data Science and AI at Saarland University",
+			"e_mail": "",
+			"phone": "",
+            "website": "",
+            "google_scholar": "",
+            "linkedin": "",
+            "facebook": "",
+			"twitter": "",
+            "bio": "I belong from kolkata and have completed my bachelors from Kiit in computer science and engineering. post bachelors i have worked in the software engineering and aiml domain in the industry  for around 3.5  years. Alongside that i have also participated in many research activities . Currently i am doing my Msc studies at Saarland university from saarbrucken in data science and ai. My current research interests lies in the computer vision domain."
+		},
 		    {
 			"id": 2,
             "img": "static/img/team/tathagatha/profile.jpeg",
