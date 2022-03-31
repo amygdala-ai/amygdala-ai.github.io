@@ -29,7 +29,35 @@
 		}
 	],
 	"advisors": [],
-	"mentors": [],
+	"mentors": [{
+			"id": 4,
+            "img": "",
+			"name": "Ankita Chatterjee",
+			"position": "JRF at IIT Bhubaneswar",
+			"e_mail": "",
+			"phone": "",
+            "website": "https://sites.google.com/view/ankitachatterjee/",
+            "google_scholar": "https://scholar.google.com/citations?user=04lZGXgAAAAJ&hl=en",
+            "linkedin": "",
+            "facebook": "",
+			"twitter": "",
+            "bio": "Ankita Chatterjee received the Bachelor of Technology in Computer Science and Engineering from W.B.U.T, India and Master of Technology in Computer Science and Engineering from KIIT Deemed to be University, Bhubaneswar, India. Currently, she is working as a Junior Research Fellow (JRF) at IIT Bhubaneswar, India. Her research interests include Brain-Computer Interface, Machine Learning, Computer Vision and Deep Learning."
+		},
+		    {
+			"id": 2,
+            "img": "static/img/team/tathagatha/profile.jpeg",
+			"name": "Tathagata Bandyopadhyay",
+			"position": "MSc Informatics at TUM",
+			"e_mail": "tathagata.bandyopadhyay@tum.de",
+			"phone": "",
+            "website": "http://tathagata.net/",
+            "google_scholar": "https://scholar.google.com/citations?user=GuH4taUAAAAJ&hl=en&oi=ao",
+            "linkedin": "https://de.linkedin.com/in/tathagata-bandyopadhyay",
+            "facebook": "https://www.facebook.com/tathagata.banerjee.731",
+			"twitter": "",
+            "bio": "Tathagata Bandyopadhyay is currently pursuing his MSc. in Informatics at Technical University of Munich, Germany with specialization in Computer Vision, Deep Learning and Scientific Computing. Before , he worked as a software engineer at Dell Technologies where he was responsible for developing a market competition based dynamic pricing model using statistics and machine learning algorithms. He received his B.Tech in Computer Science and Engineering in 2017 from KIIT University, India with Founder's Gold Medal for all round performance  across all programs of the university. His research interest includes audio source separation, audio retrieval, Brain Computer Interface (BCI) with EEG Signals, Bio-Medical Image processing and Computer Vision applications. He has seven publications as listed below."
+		}
+	],
 	"associates": [],
 	"web & media": [{
 		"id": 3,
