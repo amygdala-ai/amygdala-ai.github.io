@@ -61,12 +61,27 @@ const router = async () => {
     $("#" + match.route.nav_id).addClass("active");
     document.getElementById("app").innerHTML = await view.getHtml();
 
+
+    function htmlDecode(input) {
+        var doc = new DOMParser().parseFromString(input, "text/html");
+        return doc.documentElement.textContent;
+    }
+    
+    // Jigsaw selector for Team page
+    if (match.route.nav_id == "team-link") {
+        $("#jigsaw g").on("click", function(event) {
+            var clicked = htmlDecode( $(this).children('text')[0].innerHTML );
+            $("#team > div").css("display", "none");
+            $(`div[id='${clicked}']`).css("display", "block");
+            $(`div[id='${clicked}']`)[0].scrollIntoView();
+        });
+    }
+
 };
 
+// Use SPA router
 window.addEventListener("popstate", router);
 
-
-// Use SPA router
 document.addEventListener("DOMContentLoaded", () => {
     document.body.addEventListener("click", e => {
         if (e.target.matches("[data-link]")) {

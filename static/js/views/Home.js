@@ -1,5 +1,15 @@
 import AbstractView from "./AbstractView.js";
 
+function loadNews() {
+    let xhttp = new XMLHttpRequest();
+    
+    xhttp.open("GET", "static/data/news.json", false)
+    xhttp.send(null);
+
+    sessionStorage['news'] = xhttp.responseText;
+    return;
+}
+
 export default class extends AbstractView {
     constructor(params) {
         super(params);
@@ -7,49 +17,49 @@ export default class extends AbstractView {
     }
 
     async getHtml() {
-        return `
+
+        if (sessionStorage.getItem("news") === null) {
+            loadNews();
+        }
+
+        const newsArr = JSON.parse(sessionStorage['news']);
+        var resultHtml = "";
+
+        var curr = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--on'));
+        
+        resultHtml += `
         <h2 class="liner"> Latest in AI </h2>
-        <div id="news-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div id="news-carousel" class="carousel ${curr ? "carousel-dark": ""} slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="8000">
-                    <a href="https://ai.googleblog.com/2022/03/detecting-signs-of-disease-from.html" target="_blank">
-                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuWJqISEwcCiISX2YX7tBiVHMyJlihMsAf486Jl8QXS6Sag7Ma5zlQ6i0Js9b2nf6H0eY9_2pll8c3nuIt2cmRjPf8h-Z_Vx4wEj3TaiKWu8I8703xFbz4X5tNfRoZoANrTbSROWCIX-qRsqCqa-YyhgYECOpUl5Ew8BYXp-XtfyM3Kb2hhINxuvMmSw/w640-h342/image2.gif"
-                            alt="Detecting Signs of Disease from External Images of the Eye">
-                        <div class="carousel-caption">
-                            <h5>
-                                Detecting Signs of Disease from External Images of the Eye
-                            </h5>
-                            
-                        </div>
-                    </a>
-                </div>
-                <div class="carousel-item" data-bs-interval="8000">
-                    <a href="https://www.deepmind.com/blog/predicting-the-past-with-ithaca" target="_blank">
-                        <img src="https://assets-global.website-files.com/621e749a546b7592125f38ed/6231e47ba59f4a050e873f3a_Fig%201animated.gif"
-                            alt="Predicting the past with Ithaca">
-                        <div class="carousel-caption">
-                            <h5>
-                                Predicting the past with Ithaca
-                            </h5>
-                        </div>
-                    </a>
-                </div>
-                <div class="carousel-item" data-bs-interval="8000">
-                <a href="https://ai.facebook.com/blog/teaching-ai-to-translate-100s-of-spoken-and-written-languages-in-real-time/" target="_blank">
-                    <img src="https://scontent.fccu3-1.fna.fbcdn.net/v/t39.2365-6/271312373_486465006245666_1266192446695989160_n.png?_nc_cat=105&ccb=1-5&_nc_sid=ad8a9d&_nc_ohc=maiL-XbU8e4AX_W-KET&_nc_ht=scontent.fccu3-1.fna&oh=00_AT-759zoKkRHGcZKDL-f4JLgo1HGeuhOQbXb0LXTPi4VEQ&oe=6248C360"
-                        alt="Teaching AI to translate 100s of spoken and written languages in real time">
+        `
+
+        newsArr.forEach(function(element, index) {
+            resultHtml += `
+            <div class="carousel-item ${index == 0 ? "active": ""}" data-bs-interval="8000">
+                <a href=${element.link} target="_blank">
+                    <img src=${element.img}>
                     <div class="carousel-caption d-md-block">
                         <h5>
-                            Teaching AI to translate 100s of spoken and written languages in real time
+                            ${element.title}
                         </h5>
                     </div>
                 </a>
             </div>
+            `
+        });
+
+        resultHtml += `
             </div>
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#news-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#news-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#news-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        `
+
+        newsArr.forEach(function(element, index) {
+            resultHtml += `
+                <button type="button" data-bs-target="#news-carousel" data-bs-slide-to="${index}" ${index == 0 ? 'class="active" aria-current="true"' : ""} aria-label="Slide ${index + 1}"></button>
+            `
+        })
+
+        resultHtml += `
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#news-carousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -62,128 +72,59 @@ export default class extends AbstractView {
         </div>
 
         <h2 class="liner"> Who We Are </h2>
-        <div class=WordSection1>
-            <p class=MsoNormal style='margin-bottom:10.0pt;text-align:justify;line-height:
-                115%;mso-layout-grid-align:none;text-autospace:none'>
-                <span lang=EN
-                    style='mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:
-                    Calibri;mso-ansi-language:EN'>Amygdala AI is an open non-profit platform for
-                cutting edge AI research with a pragmatic focus on addressing real-life use
-                cases with intelligent algorithms for a better tomorrow. </span>
-                <span
-                    lang=EN-GB style='mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;
-                    mso-bidi-font-family:Calibri;mso-ansi-language:EN-GB'>
-                    Our goal is to co-operate,
-                    complement and collaborate globally to push the current state of the arts in
-                    varied subdomains of artificial intelligence and machine learning research with sustainable development goals. 
-                    <o:p></o:p>
-                </span>
+        <div>
+            <p style="text-align: justify">
+                Amygdala AI is an open non-profit platform for cutting edge AI research with a pragmatic focus on addressing real-life use cases with intelligent algorithms for a better tomorrow.
+                Our goal is to co-operate, complement and collaborate globally to push the current state of the arts in varied subdomains of artificial intelligence and machine learning research with sustainable development goals. 
             </p>
-            <p class=MsoNormal align=center style='margin-bottom:10.0pt;text-align:center;
-                line-height:115%;mso-layout-grid-align:none;text-autospace:none'>
-                <b>
-                    <span
-                        lang=EN style='mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;
-                        mso-bidi-font-family:Calibri;mso-ansi-language:EN'>
-                        &quot;No one can whistle a
-                        symphony. It takes a whole orchestra to play it.&quot; 
-                        <o:p></o:p>
-                    </span>
-                </b>
+            <figure class="quote text-center">
+                <blockquote class="blockquote">
+                    <p class="pb-3">
+                        <i class="fa fa-quote-left fa-lg text-success" style="padding-right: 0.5rem"></i>
+                        <span class="lead font-italic"> No one can whistle a symphony. It takes a whole orchestra to play it. </span>
+                        <i class="fa fa-quote-right fa-lg text-success" style="padding-left: 0.5rem"></i>
+                    <p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                    H.E. Luccock
+                </figcaption>
+            </figure>
+            <p style="text-align: justify">
+                Currently, we have voluntary collaborators from Technical University of Munich, Germany and KIIT University, India and we are growing quite fast to include collaborators from several other eminent research institutes around the world.
             </p>
-            <p class=MsoNormal align=right style='margin-bottom:10.0pt;text-align:right;
-                line-height:115%;mso-layout-grid-align:none;text-autospace:none'>
-                <b>
-                    <span
-                        lang=EN style='mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;
-                        mso-bidi-font-family:Calibri;mso-ansi-language:EN'>
-                        – H.E. <span class=SpellE>Luccock</span>
-                        <o:p></o:p>
-                    </span>
-                </b>
+            <figure class="quote text-center">
+                <blockquote class="blockquote">
+                    <p class="pb-3">
+                        <i class="fa fa-quote-left fa-lg text-success" style="padding-right: 0.5rem"></i>
+                        <span class="lead font-italic"> Many ideas grow better when transplanted into another mind than the one where they sprang up. </span>
+                        <i class="fa fa-quote-right fa-lg text-success" style="padding-left: 0.5rem"></i>
+                    <p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                    Oliver Wendell Holmes
+                </figcaption>
+            </figure>
+            <p style="text-align: justify">
+                At Amygdala we work as voluntary research enthusiasts in multiple parallel ideas divided in smaller sub teams of our research associates, headed by a research advisor, and closely guided by our mentors.
+                The sub teams are formed internally based on individual research interest and area of expertise.
+                So, if you are an AI aficionado, ML expert or just a research enthusiast with an overlapping subdomain, feel free join us to strengthen our research community even more.
             </p>
-            <p class=MsoNormal style='margin-bottom:10.0pt;text-align:justify;line-height:
-                115%;mso-layout-grid-align:none;text-autospace:none'>
-                <span lang=EN
-                    style='mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:
-                    Calibri;mso-ansi-language:EN'>
-                    Currently, we have voluntary collaborators from
-                    Technical University of Munich, Germany and KIIT University, India and we are
-                    growing quite fast to include collaborators from several other eminent research
-                    institutes around the world. 
-                    <o:p></o:p>
-                </span>
-            </p>
-            <p class=MsoNormal align=center style='margin-bottom:10.0pt;text-align:center;
-                line-height:115%;mso-layout-grid-align:none;text-autospace:none'>
-                <b>
-                    <span
-                        lang=EN style='mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;
-                        mso-bidi-font-family:Calibri;mso-ansi-language:EN'>
-                        &quot;Many ideas grow better
-                        when transplanted into another mind than the one where they sprang up.&quot; 
-                        <o:p></o:p>
-                    </span>
-                </b>
-            </p>
-            <p class=MsoNormal align=right style='margin-bottom:10.0pt;text-align:right;
-                line-height:115%;mso-layout-grid-align:none;text-autospace:none'>
-                <b>
-                    <span
-                        lang=EN style='mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;
-                        mso-bidi-font-family:Calibri;mso-ansi-language:EN'>
-                        – Oliver Wendell Holmes
-                        <o:p></o:p>
-                    </span>
-                </b>
-            </p>
-            <p class=MsoNormal style='margin-bottom:10.0pt;text-align:justify;line-height:
-                115%;mso-layout-grid-align:none;text-autospace:none'>
-                <span lang=EN
-                    style='mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:
-                    Calibri;mso-ansi-language:EN'>
-                    At Amygdala we work as voluntary research
-                    enthusiasts in multiple parallel ideas divided in smaller sub teams of our
-                    research associates, headed by a research advisor, and closely guided by our
-                    mentors. The sub teams are formed internally based on individual research
-                    interest and area of expertise. So, if you are an AI aficionado, ML expert or
-                    just a research enthusiast with an overlapping subdomain, feel free join us to strengthen
-                    our research community even more. 
-                    <o:p></o:p>
-                </span>
-            </p>
-            <p class=MsoNormal align=center style='margin-bottom:10.0pt;text-align:center;
-                line-height:115%;mso-layout-grid-align:none;text-autospace:none'>
-                <b>
-                    <span
-                        lang=EN style='mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;
-                        mso-bidi-font-family:Calibri;mso-ansi-language:EN'>
-                        &quot;Coming together is a
-                        beginning, staying together is progress, and working together is success.&quot;
-                        <o:p></o:p>
-                    </span>
-                </b>
-            </p>
-            <p class=MsoNormal align=right style='margin-bottom:10.0pt;text-align:right;
-                line-height:115%;mso-layout-grid-align:none;text-autospace:none'>
-                <b>
-                    <span
-                        lang=EN style='mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;
-                        mso-bidi-font-family:Calibri;mso-ansi-language:EN'>
-                        – Henry Ford 
-                        <o:p></o:p>
-                    </span>
-                </b>
-            </p>
-            <p class=MsoNormal>
-                <span lang=EN style='mso-ansi-language:EN'>
-                    <o:p>&nbsp;</o:p>
-                </span>
-            </p>
+            <figure class="quote text-center">
+                <blockquote class="blockquote">
+                    <p class="pb-3">
+                        <i class="fa fa-quote-left fa-lg text-success" style="padding-right: 0.5rem"></i>
+                        <span class="lead font-italic"> Coming together is a beginning, staying together is progress, and working together is success. </span>
+                        <i class="fa fa-quote-right fa-lg text-success" style="padding-left: 0.5rem"></i>
+                    <p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                    Henry Ford
+                </figcaption>
+            </figure>
         </div>
 
         <h2 class="liner"> Research Areas </h2>
-        <div style="display: inline-block; padding-bottom: 2rem;">
+        <div style="display: inline-block">
             <div class="img-container">
                 <div class="content">
                     <div class="content-overlay"></div>
@@ -258,5 +199,7 @@ export default class extends AbstractView {
             </div>
         </div>
         `;
+
+        return resultHtml;
     }
 }

@@ -13,12 +13,7 @@ a {
   height: 100%;
   top: 0;
   left: 0;
-  background-image: url("../img/brain.png");
-  background-size: 30rem;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
   background-color: rgb(calc(235 * var(--on) + 20), calc(235 * var(--on) + 20), calc(235 * var(--on) + 20));
-  background-attachment: fixed;
   filter: brightness(80%);
 }
 #particles-js canvas {
@@ -141,10 +136,22 @@ a {
   aspect-ratio: 1;
   margin-bottom: 1.25rem;
 }
+.quote {
+  position: relative;
+  width: 90%;
+  margin: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.blockquote {
+  font-size: var(--bs-body-font-size) !important;
+  font-style: italic;
+}
 .footer {
   position: relative;
   margin-top: 1rem;
   height: 1rem;
+  text-align: end;
 }
 
 /* ---- carousel ---- */
@@ -261,20 +268,21 @@ a {
 .fadeIn-bottom{
   top: 80%;
 }
-.fadeIn-top{
-  top: 20%;
-}
-.fadeIn-left{
-  left: 20%;
-}
-.fadeIn-right{
-  left: 80%;
-}
 
-.hideOnHover{
-  display: block;
+/* ---- jigsaw ---- */
+.piece {
+  stroke-miterlimit: 10;
+  stroke-width: 29.32px;
+  fill: teal;
+  stroke: aquamarine;
 }
-
-.hideOnHover:hover{
-  display: none;
+.piece:hover {
+  fill: var(--bs-teal);
+}
+.piece-text {
+  font-size: 12.5rem;
+  fill: white;
+}
+#jigsaw g {
+  cursor: pointer;
 }
