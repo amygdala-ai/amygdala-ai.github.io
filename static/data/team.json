@@ -30,20 +30,6 @@
 	],
 	"advisors": [
 		{
-			"id": 1,
-            "img": "static/img/team/rajdeep/profile.jpg",
-			"name": "Rajdeep Chatterjee",
-			"position": "Associate Professor at KIIT",
-			"e_mail": "",
-			"phone": "",
-            "website": "https://sites.google.com/kiit.ac.in/rajdeep/home",
-            "google_scholar": "https://scholar.google.com/citations?user=BozHYf4AAAAJ&hl=en&oi=ao",
-            "linkedin": "https://in.linkedin.com/in/dr-rajdeep-chatterjee-60352325",
-            "facebook": "",
-			"twitter": "https://twitter.com/rajdeep_kiit",
-            "bio": "Rajdeep Chatterjee received his Bachelor of Engineering in Computer Science and Engineering from The University of Burdwan in 2008. He completed both his Master of Technology and Ph.D. in Computer Science and Engineering from KIIT Deemed to be University in 2011 and 2020, respectively. He received MHRD (Govt. of India) scholarship in his masters for possessing All India Rank 1410 in GATE-2008. He started his professional career as Project Linked Person at Machine Intelligence Unit, Indian Statistical Institute, Kolkata. He is currently working as an Assistant Professor at School of Computer Engineering, KIIT Deemed to be University, Bhubaneswar, India. Besides, he is associated as an expert member in the Cognitive Systems and Cybernetics Research Lab., MIU, ISI Kolkata, India. He is also one of the founding members of the international conference series on Computational Intelligence & Networks (http://www.cineconf.org). He has published research articles in many reputed international conferences and journals. He is a regular reviewer of various reputed journals such as Medical & Biological Eng. & Computing (SCI-E, IF: 2.602), IEEE Transactions on Biomedical Engineering (SCI-E, IF: 4.538), IEEE Journal of Biomedical and Health Informatics (SCI-E, IF: 5.223), Computers in Biology and Medicine (SCI-E, IF: 4.589), IEEE Transactions on Emerging Topics in Computational Intelligence (Scopus, IF: 8.28), Evolutionary Intelligence (Scopus, DBLP), etc. His research areas include Brain-Computer Interface, Machine Learning, Deep Learning and Computer Vision."
-		},
-		{
 			"id": 5,
             "img": "static/img/team/mahendra/profile.jpg",
 			"name": "Mahendra Kumar Gourisaria",
@@ -56,6 +42,20 @@
             "facebook": "",
 			"twitter": "https://twitter.com/mkgourisaria119",
             "bio": "Mahendra Kumar Gourisaria is presently working as an Assistant Professor in the School of Computer Engineering at KIIT University, Bhubaneswar, Odisha. He has received his Master degree in Computer Application from Indira Gandhi National Open University, New Delhi and M.Tech in Computer Science and Engineering from Biju Patnaik University of Technology - Rourkela. He is pursuing his Ph.D. from KIIT Deemed to be University. He has an experience of more than 18 years in academia and 7 years in research. He has published more than 20 research papers in different international journals and conferences of repute. He has also served as the organizing committees members of various conferences and workshop. His area of research includes Cloud Computing, Data Mining, Soft Computing and Internet and Web Technology. He is a member of IAENG, UACEE and life member of ISTE, CSI and ISCA."
+		},
+		{
+			"id": 1,
+            "img": "static/img/team/rajdeep/profile.jpg",
+			"name": "Rajdeep Chatterjee",
+			"position": "Associate Professor at KIIT",
+			"e_mail": "",
+			"phone": "",
+            "website": "https://sites.google.com/kiit.ac.in/rajdeep/home",
+            "google_scholar": "https://scholar.google.com/citations?user=BozHYf4AAAAJ&hl=en&oi=ao",
+            "linkedin": "https://in.linkedin.com/in/dr-rajdeep-chatterjee-60352325",
+            "facebook": "",
+			"twitter": "https://twitter.com/rajdeep_kiit",
+            "bio": "Rajdeep Chatterjee received his Bachelor of Engineering in Computer Science and Engineering from The University of Burdwan in 2008. He completed both his Master of Technology and Ph.D. in Computer Science and Engineering from KIIT Deemed to be University in 2011 and 2020, respectively. He received MHRD (Govt. of India) scholarship in his masters for possessing All India Rank 1410 in GATE-2008. He started his professional career as Project Linked Person at Machine Intelligence Unit, Indian Statistical Institute, Kolkata. He is currently working as an Assistant Professor at School of Computer Engineering, KIIT Deemed to be University, Bhubaneswar, India. Besides, he is associated as an expert member in the Cognitive Systems and Cybernetics Research Lab., MIU, ISI Kolkata, India. He is also one of the founding members of the international conference series on Computational Intelligence & Networks (http://www.cineconf.org). He has published research articles in many reputed international conferences and journals. He is a regular reviewer of various reputed journals such as Medical & Biological Eng. & Computing (SCI-E, IF: 2.602), IEEE Transactions on Biomedical Engineering (SCI-E, IF: 4.538), IEEE Journal of Biomedical and Health Informatics (SCI-E, IF: 5.223), Computers in Biology and Medicine (SCI-E, IF: 4.589), IEEE Transactions on Emerging Topics in Computational Intelligence (Scopus, IF: 8.28), Evolutionary Intelligence (Scopus, DBLP), etc. His research areas include Brain-Computer Interface, Machine Learning, Deep Learning and Computer Vision."
 		}
 	],
 	"mentors": [{
@@ -105,15 +105,29 @@
 		"id": 7,
 		"img": "static/img/team/atri/profile.jpg",
 		"name": "Atri Biswas",
-		"position": "B.Tech in CSE at KIIT University",
+		"position": "Application Development Associate at Accenture",
 		"e_mail": "",
+		"phone": "",
+		"website": "https://atris-portfolio.webflow.io/",
+		"google_scholar": "",
+		"linkedin": "https://www.linkedin.com/in/atri-biswas-83631216b",
+		"facebook": "",
+		"twitter": "",
+		"bio": "Atri Biswas is a B.Tech graduate from Kalinga Institute of Industrial Technology. He has done his Major Project in AI/ML field and has found a solution for Interview process automation for which he and his team has been awarded BEST PAPER AWARD from ICMIDAS (International Conference on Machine Intelligence and Data Science). He has done his internship from East Experts where he worked on an ERP project based on developing an E-Commerce website singlehandedly. Further, he is thorough in a number of coding languages such as Python, Golang, R and query languages such as SQL and ORACLE. His communication is top notch and he is a team player and a kind yet logical person."
+	},
+	{
+		"id": 3,
+		"img": "static/img/team/anish/profile.jpg",
+		"name": "Anish Pathak",
+		"position": "Full Stack Developer",
+		"e_mail": "anish.pathak5@gmail.com",
 		"phone": "",
 		"website": "",
 		"google_scholar": "",
 		"linkedin": "",
 		"facebook": "",
 		"twitter": "",
-		"bio": ""
+		"bio": "Anish Pathak is a software engineer with 2+ years of work experience. He is highly motivated by research applications with a real-world impact and is currently aspiring to pursue a master's in Computer Science to further his knowledge."
 	}
 	],
 	"web & media": [{
