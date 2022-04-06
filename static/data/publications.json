@@ -192,7 +192,7 @@
 		"id": 20,
 		"title": "Real-Time Speech Emotion Analysis for Smart Home Assistants",
 		"authors": "Rajdeep Chatterjee, Saptarshi Mazumdar, R. Simon Sherratt, Rohit Halder, Tanmoy Maitra, Debasish Giri",
-		"author_ids": [1],
+		"author_ids": [1, 9],
 		"date": "2021/2",
 		"conference": "IEEE Transactions on Consumer Electronics",
 		"link": "https://ieeexplore.ieee.org/document/9352018/",

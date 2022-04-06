@@ -86,7 +86,7 @@
 			"twitter": "",
             "bio": "I belong from kolkata and have completed my bachelors from Kiit in computer science and engineering. post bachelors i have worked in the software engineering and aiml domain in the industry  for around 3.5  years. Alongside that i have also participated in many research activities . Currently i am doing my Msc studies at Saarland university from saarbrucken in data science and ai. My current research interests lies in the computer vision domain."
 		},
-		    {
+		{
 			"id": 2,
             "img": "static/img/team/tathagatha/profile.jpeg",
 			"name": "Tathagata Bandyopadhyay",
@@ -104,7 +104,7 @@
 			"id": 9,
 			"img": "static/img/team/saptarshi/profile.jpg",
 			"name": "Saptarshi Mazumdar",
-			"position": "Associate Software Developer - I at HighRadius",
+			"position": "Associate Software Developer I at HighRadius",
 			"e_mail": "",
 			"phone": "",
 			"website": "https://sites.google.com/view/saptarshi-mazumdar/",
@@ -112,7 +112,7 @@
 			"linkedin": "https://www.linkedin.com/in/saptarshi-mazumdar-a395ab171/",
 			"facebook": "",
 			"twitter": "",
-			"bio": "Saptarshi Mazumdar is an associate software engineer at Highradius Corporation. His major research area lies in the intersection of Computer Science, Digital Signal Processing and Machine Learning. Some of his research projects include brain computer interfacing with EEG signal processing, Speech recognition and audio understanding. Aditionally, he is an expert in Full-Stack Web development with System integration and System Deployment. "
+			"bio": "Saptarshi Mazumdar is an associate software engineer at Highradius Corporation. His major research area lies in the intersection of Computer Science, Digital Signal Processing and Machine Learning. Some of his research projects include brain computer interfacing with EEG signal processing, Speech recognition and audio understanding. Aditionally, he is an expert in Full-Stack Web development with System integration and System Deployment."
 		}
 	],
 	"associates": [{
