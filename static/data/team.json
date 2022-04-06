@@ -99,6 +99,20 @@
             "facebook": "https://www.facebook.com/tathagata.banerjee.731",
 			"twitter": "",
             "bio": "Tathagata Bandyopadhyay is currently pursuing his MSc. in Informatics at Technical University of Munich, Germany with specialization in Computer Vision, Deep Learning and Scientific Computing. Before , he worked as a software engineer at Dell Technologies where he was responsible for developing a market competition based dynamic pricing model using statistics and machine learning algorithms. He received his B.Tech in Computer Science and Engineering in 2017 from KIIT University, India with Founder's Gold Medal for all round performance  across all programs of the university. His research interest includes audio source separation, audio retrieval, Brain Computer Interface (BCI) with EEG Signals, Bio-Medical Image processing and Computer Vision applications. He has seven publications as listed below."
+		},
+		{
+			"id": 9,
+			"img": "static/img/team/saptarshi/profile.jpg",
+			"name": "Saptarshi Mazumdar",
+			"position": "Associate Software Developer - I at HighRadius",
+			"e_mail": "",
+			"phone": "",
+			"website": "https://sites.google.com/view/saptarshi-mazumdar/",
+			"google_scholar": "https://scholar.google.com/citations?user=tJVHz8QAAAAJ",
+			"linkedin": "https://www.linkedin.com/in/saptarshi-mazumdar-a395ab171/",
+			"facebook": "",
+			"twitter": "",
+			"bio": "Saptarshi Mazumdar is an associate software engineer at Highradius Corporation. His major research area lies in the intersection of Computer Science, Digital Signal Processing and Machine Learning. Some of his research projects include brain computer interfacing with EEG signal processing, Speech recognition and audio understanding. Aditionally, he is an expert in Full-Stack Web development with System integration and System Deployment. "
 		}
 	],
 	"associates": [{
