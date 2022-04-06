@@ -128,6 +128,20 @@
 		"facebook": "",
 		"twitter": "",
 		"bio": "Anish Pathak is a software engineer with 2+ years of work experience. He is highly motivated by research applications with a real-world impact and is currently aspiring to pursue a master's in Computer Science to further his knowledge."
+	},
+	{
+		"id": 8,
+		"img": "static/img/team/akshita/profile.jpg",
+		"name": "Akshita Sah",
+		"position": "B.Tech. Computer Science at KIIT University",
+		"e_mail": "akshita.asah@gmail.com",
+		"phone": "",
+		"website": "https://akshitasah.netlify.app/",
+		"google_scholar": "",
+		"linkedin": "https://www.linkedin.com/in/akshita-sah/",
+		"facebook": "",
+		"twitter": "https://twitter.com/_akshitaSah",
+		"bio": "Hi, I am Akshita Sah. Exploring Technology is my passion. I am an enthusiastic and hardworking person, willing to learn new things and work with others to explore different fields and contribute towards them. Currently, I am in the sophomore year of my college. I have always been interested in programming. I love to participate in contests and competitions to enhance my skills. I love to help others and motivate others as well so that everyone strives to work hard and reach their goals."
 	}
 	],
 	"web & media": [{
