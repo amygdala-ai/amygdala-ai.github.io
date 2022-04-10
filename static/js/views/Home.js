@@ -42,6 +42,9 @@ export default class extends AbstractView {
                         <h5>
                             ${element.title}
                         </h5>
+                        <p class="fst-italic text-end mb-0">
+                            ${element.source}
+                        </p>
                     </div>
                 </a>
             </div>

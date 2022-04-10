@@ -1,21 +1,25 @@
 [{
     "title": "Pathways Language Model (PaLM): Scaling to 540 Billion Parameters",
     "link": "https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html",
-    "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLXCWMlipdu0gFF6hsiJHbxg1zSaEkdDWfl-8RakQuW__8RPvlOS9KGIScNCytxT4jz9isnx0GLMwbS1G0Q4WdXzT42GszgfwIIAVX1H3J-43lVWWqcb--q9cPsxCsJFFz2dRfpKgEmLe-xfIyBqQuPq1BPYcK9CtAK1_xnhgvgAAx0GeZmODJxGNMYQ/s16000/image8.gif"
+    "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLXCWMlipdu0gFF6hsiJHbxg1zSaEkdDWfl-8RakQuW__8RPvlOS9KGIScNCytxT4jz9isnx0GLMwbS1G0Q4WdXzT42GszgfwIIAVX1H3J-43lVWWqcb--q9cPsxCsJFFz2dRfpKgEmLe-xfIyBqQuPq1BPYcK9CtAK1_xnhgvgAAx0GeZmODJxGNMYQ/s16000/image8.gif",
+    "source": "Google AI Blog"
 },
 {
     "title": "Detecting Signs of Disease from External Images of the Eye",
     "link": "https://ai.googleblog.com/2022/03/detecting-signs-of-disease-from.html",
-    "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuWJqISEwcCiISX2YX7tBiVHMyJlihMsAf486Jl8QXS6Sag7Ma5zlQ6i0Js9b2nf6H0eY9_2pll8c3nuIt2cmRjPf8h-Z_Vx4wEj3TaiKWu8I8703xFbz4X5tNfRoZoANrTbSROWCIX-qRsqCqa-YyhgYECOpUl5Ew8BYXp-XtfyM3Kb2hhINxuvMmSw/w640-h342/image2.gif"
+    "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuWJqISEwcCiISX2YX7tBiVHMyJlihMsAf486Jl8QXS6Sag7Ma5zlQ6i0Js9b2nf6H0eY9_2pll8c3nuIt2cmRjPf8h-Z_Vx4wEj3TaiKWu8I8703xFbz4X5tNfRoZoANrTbSROWCIX-qRsqCqa-YyhgYECOpUl5Ew8BYXp-XtfyM3Kb2hhINxuvMmSw/w640-h342/image2.gif",
+    "source": "Google AI Blog"
 },
 {
     "title": "Predicting the past with Ithaca",
     "link": "https://www.deepmind.com/blog/predicting-the-past-with-ithaca",
-    "img": "https://assets-global.website-files.com/621e749a546b7592125f38ed/6231e47ba59f4a050e873f3a_Fig%201animated.gif"
+    "img": "https://assets-global.website-files.com/621e749a546b7592125f38ed/6231e47ba59f4a050e873f3a_Fig%201animated.gif",
+    "source": "Deepmind"
 },
 {
     "title": "Teaching AI to translate 100s of spoken and written languages in real time",
     "link": "https://ai.facebook.com/blog/teaching-ai-to-translate-100s-of-spoken-and-written-languages-in-real-time/",
-    "img": "https://scontent.fccu3-1.fna.fbcdn.net/v/t39.2365-6/271312373_486465006245666_1266192446695989160_n.png?_nc_cat=105&ccb=1-5&_nc_sid=ad8a9d&_nc_ohc=BVloJANfE4YAX9NAEa3&_nc_ht=scontent.fccu3-1.fna&oh=00_AT8pT8TJivKwxlm0VTb0PlnRDrhdqZE9qLJZ8yBPAibyBQ&oe=6254A0E0"
+    "img": "https://scontent.fccu3-1.fna.fbcdn.net/v/t39.2365-6/271312373_486465006245666_1266192446695989160_n.png?_nc_cat=105&ccb=1-5&_nc_sid=ad8a9d&_nc_ohc=BVloJANfE4YAX9NAEa3&_nc_ht=scontent.fccu3-1.fna&oh=00_AT8pT8TJivKwxlm0VTb0PlnRDrhdqZE9qLJZ8yBPAibyBQ&oe=6254A0E0",
+    "source": "Meta AI"
 }
 ]
