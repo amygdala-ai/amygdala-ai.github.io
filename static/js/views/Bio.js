@@ -30,10 +30,10 @@ function fetchPersonBio(person_id) {
             <h2 class="text-center"> ${pascalize(foundId.name)} </h2>
         </div>
         <div class="row" style="margin-top: 0.625rem; margin-bottom: 0.625rem; align-items: center;">
-            <div class="col-xs-8 col-sm-6 col-md-6 col-lg-6 text-end">
+            <div class="col-md-6 col-personal-photo">
                 <img class="rounded-circle" height="200px" width="200px" src="../${foundId.img}" style="border: solid 0.2rem teal;">
             </div>
-            <div class="col-xs-8 col-sm-6 col-md-6 col-lg-6 text-start" style="display: flex; flex-direction: column; gap: 0.5rem">
+            <div class="col-md-6 col-personal-info" style="display: flex; flex-direction: column; gap: 0.5rem">
                 <div>
                     <span class="fa fa-fw fa-profile fa-briefcase"></span>
                     ${foundId.position}

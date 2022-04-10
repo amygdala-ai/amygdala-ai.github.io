@@ -1,7 +1,7 @@
 {
 	"founders": [{
 			"id": 1,
-            "img": "static/img/team/rajdeep/profile.jpg",
+            "img": "static/img/team/rajdeep.jpg",
 			"name": "Rajdeep Chatterjee",
 			"position": "Associate Professor at KIIT",
 			"e_mail": "",
@@ -15,7 +15,7 @@
 		},
 		{
 			"id": 2,
-            "img": "static/img/team/tathagatha/profile.jpeg",
+            "img": "static/img/team/tathagata.jpeg",
 			"name": "Tathagata Bandyopadhyay",
 			"position": "MSc Informatics at TUM",
 			"e_mail": "tathagata.bandyopadhyay@tum.de",
@@ -31,7 +31,7 @@
 	"advisors": [
 		{
 			"id": 5,
-            "img": "static/img/team/mahendra/profile.jpg",
+            "img": "static/img/team/mahendra.jpg",
 			"name": "Mahendra Kumar Gourisaria",
 			"position": "Assistant Professor at KIIT",
 			"e_mail": "mkgourisariafcs@kiit.ac.in",
@@ -45,7 +45,7 @@
 		},
 		{
 			"id": 1,
-            "img": "static/img/team/rajdeep/profile.jpg",
+            "img": "static/img/team/rajdeep.jpg",
 			"name": "Rajdeep Chatterjee",
 			"position": "Associate Professor at KIIT",
 			"e_mail": "",
@@ -60,7 +60,7 @@
 	],
 	"mentors": [{
 			"id": 4,
-            "img": "static/img/team/ankita/profile.jpg",
+            "img": "static/img/team/ankita.jpg",
 			"name": "Ankita Chatterjee",
 			"position": "JRF at IIT Bhubaneswar",
 			"e_mail": "",
@@ -74,7 +74,7 @@
 		},
 		{
 			"id": 6,
-            "img": "static/img/team/soham/profile.jpg",
+            "img": "static/img/team/soham.jpg",
 			"name": "Soham Roy",
 			"position": "MSc in Data Science and AI at Saarland University",
 			"e_mail": "",
@@ -88,7 +88,7 @@
 		},
 		{
 			"id": 2,
-            "img": "static/img/team/tathagatha/profile.jpeg",
+            "img": "static/img/team/tathagata.jpeg",
 			"name": "Tathagata Bandyopadhyay",
 			"position": "MSc Informatics at TUM",
 			"e_mail": "tathagata.bandyopadhyay@tum.de",
@@ -102,7 +102,7 @@
 		},
 		{
 			"id": 9,
-			"img": "static/img/team/saptarshi/profile.jpg",
+			"img": "static/img/team/saptarshi.jpg",
 			"name": "Saptarshi Mazumdar",
 			"position": "Associate Software Developer I at HighRadius",
 			"e_mail": "",
@@ -117,7 +117,7 @@
 	],
 	"associates": [{
 		"id": 7,
-		"img": "static/img/team/atri/profile.jpg",
+		"img": "static/img/team/atri.jpg",
 		"name": "Atri Biswas",
 		"position": "Application Development Associate at Accenture",
 		"e_mail": "",
@@ -131,7 +131,7 @@
 	},
 	{
 		"id": 3,
-		"img": "static/img/team/anish/profile.jpg",
+		"img": "static/img/team/anish.jpg",
 		"name": "Anish Pathak",
 		"position": "Full Stack Developer",
 		"e_mail": "anish.pathak5@gmail.com",
@@ -145,7 +145,7 @@
 	},
 	{
 		"id": 8,
-		"img": "static/img/team/akshita/profile.jpg",
+		"img": "static/img/team/akshita.jpg",
 		"name": "Akshita Sah",
 		"position": "B.Tech. Computer Science at KIIT University",
 		"e_mail": "akshita.asah@gmail.com",
@@ -160,7 +160,7 @@
 	],
 	"web & media": [{
 		"id": 3,
-		"img": "static/img/team/anish/profile.jpg",
+		"img": "static/img/team/anish.jpg",
 		"name": "Anish Pathak",
 		"position": "Full Stack Developer",
 		"e_mail": "anish.pathak5@gmail.com",

@@ -24,7 +24,7 @@ function fetchTeam() {
     var resultHtml = "";
 
     resultHtml += `
-    <div style="text-align: center; padding-top: 2rem; padding-bottom: 5rem">
+    <div style="text-align: center; padding: 2rem 0 2rem 0;">
         <svg viewBox="0 0 4652.04 4424.36" preserveAspectRatio="xMidYMid meet" width="60%">
             <g id="jigsaw">
                 <g id="top-middle-piece">
@@ -66,6 +66,13 @@ function fetchTeam() {
                 </div>
                 <div class="row" style="margin-bottom: 2rem">
             `
+            // Sort alphabetically
+            value.sort( function( a, b ) {
+                a = a.name.toLowerCase();
+                b = b.name.toLowerCase();
+                return a < b ? -1 : a > b ? 1 : 0;
+            });
+
             value.forEach(element => {
                 resultHtml += `
                     <div class="col-lg-3 text-center">
