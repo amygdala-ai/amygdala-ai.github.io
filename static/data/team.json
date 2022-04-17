@@ -113,6 +113,20 @@
 			"facebook": "",
 			"twitter": "",
 			"bio": "Saptarshi Mazumdar is an associate software engineer at Highradius Corporation. His major research area lies in the intersection of Computer Science, Digital Signal Processing and Machine Learning. Some of his research projects include brain computer interfacing with EEG signal processing, Speech recognition and audio understanding. Aditionally, he is an expert in Full-Stack Web development with System integration and System Deployment."
+		},
+		{
+			"id": 10,
+			"img": "static/img/team/anjan.jpg",
+			"name": "Anjan Chowdhury",
+			"position": "SRF at ISI Kolkata",
+			"e_mail": "anjanchowdhury88@gmail.com",
+			"phone": "",
+			"website": "",
+			"google_scholar": "",
+			"linkedin": "https://in.linkedin.com/in/anjan-chowdhury-30a5b4103",
+			"facebook": "",
+			"twitter": "",
+			"bio": "Anjan Chowdhury is currrently a SRF at Center for Soft Computing Research, Indian Statistical Institute Kolkata. Before that he earned B.E in computer science from  IIEST, Shibpur and M.Tech in the same field from IIT Bombay. Some of his research interest includes machine learning, complex networks, brain computer interfacing using EEG and fMRI signals and so on."
 		}
 	],
 	"associates": [{
