@@ -21,11 +21,19 @@ function fetchTeam() {
     }
     
     const teamObj = JSON.parse(sessionStorage['team']);
+
+    // Sort alphabetically
+    teamObj.people.sort( function( a, b ) {
+        a = a.name.toLowerCase();
+        b = b.name.toLowerCase();
+        return a < b ? -1 : a > b ? 1 : 0;
+    });
+
     var resultHtml = "";
 
     resultHtml += `
     <div style="text-align: center; padding: 2rem 0 2rem 0;">
-        <svg viewBox="0 0 4652.04 4424.36" preserveAspectRatio="xMidYMid meet" width="60%">
+        <svg viewBox="0 0 4652.04 4424.36" preserveAspectRatio="xMidYMid meet" width="65%">
             <g id="jigsaw">
                 <g id="top-middle-piece">
                     <path class="piece" d="M1571.64,1139.31l54.27-75.78c53-74.2,140.26-74.52,193.86-.74L2019.7,1338c53.61,73.78,26.35,156.68-60.56,184.21l-88.92,28.08c-86.53,27.5-114,109.7-61.24,183.29l516.77,711.53,517.06-711.37c53.69-72.89,140.35-72.19,193.24,1.6l54.18,75.89c53,74.15,140.3,74.46,193.91.68l199.93-275.18c53.6-73.78,26.34-156.67-60.61-184.15l-88.84-28.19c-86.61-27.39-114-109.7-61.28-183.23l206.73-284.54L2326,18.12,1171.88,856.66,1378.44,1141C1432.1,1213.8,1518.83,1213.21,1571.64,1139.31Z"/>
@@ -57,45 +65,39 @@ function fetchTeam() {
     <div id="team">
     `
 
-    Object.entries(teamObj).forEach(([key, value]) => {
-        if (value.length != 0) {
-            resultHtml += `
-            <div id="${pascalize(key)}" style="display: none">
-                <div class="row">
-                    <h2 class="liner"> ${pascalize(key)} </h2>
-                </div>
-                <div class="row" style="margin-bottom: 2rem">
-            `
-            // Sort alphabetically
-            value.sort( function( a, b ) {
-                a = a.name.toLowerCase();
-                b = b.name.toLowerCase();
-                return a < b ? -1 : a > b ? 1 : 0;
-            });
-
-            value.forEach(element => {
+    teamObj.roles.forEach(role => {
+        resultHtml += `
+        <div id="${pascalize(role)}" style="display: none">
+            <div class="row">
+                <h2 class="liner"> ${pascalize(role)} </h2>
+            </div>
+            <div class="row" style="margin-bottom: 2rem">
+        `
+        
+        teamObj.people.forEach(person => {
+            if (person.roles.some(item => item == role)) {
                 resultHtml += `
                     <div class="col-lg-3 text-center">
                         <div class="row">
                             <div class="col">
-                                <a href="/team/${element.id}" data-link>
-                                    <img class="rounded-circle" src="${element.img}" style="width: 8.75rem; height: 8.75rem; margin-top: 1vw; margin-bottom: 1vw; border: solid 0.2rem teal;"/>
+                                <a href="/team/${person.id}" data-link>
+                                    <img class="rounded-circle" src="${person.img}" style="width: 8.75rem; height: 8.75rem; margin-top: 1vw; margin-bottom: 1vw; border: solid 0.2rem teal;"/>
                                 </a>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col">
-                                <a class="link" href="/team/${element.id}" data-link> ${pascalize(element.name)} </a>
+                                <a class="link" href="/team/${person.id}" data-link> ${pascalize(person.name)} </a>
                             </div>
                         </div>
                     </div>
                 `
-            });
-            resultHtml += `
-                </div>
+            }
+        });
+        resultHtml += `
             </div>
-            `
-        }
+        </div>
+        `
     });
     resultHtml += `</div>`
     return resultHtml;

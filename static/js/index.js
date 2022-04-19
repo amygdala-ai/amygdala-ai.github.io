@@ -61,13 +61,29 @@ const router = async () => {
     $("#" + match.route.nav_id).addClass("active");
     document.getElementById("app").innerHTML = await view.getHtml();
 
+    // Animation JS for individual pages
 
+    // Collapsible div animation for Pubs page
+    if (match.route.nav_id == "pubs-link") {
+        $(".liner").on("click", function(event) {
+            if ($("span", this).hasClass("fa-caret-right")) {
+                $("span", this).removeClass("fa-caret-right");
+                $("span", this).addClass("fa-caret-down");
+            } 
+            else {
+                $("span", this).removeClass("fa-caret-down");
+                $("span", this).addClass("fa-caret-right");
+            }
+        });
+    }
+
+
+    // Jigsaw selector for Team page
     function htmlDecode(input) {
         var doc = new DOMParser().parseFromString(input, "text/html");
         return doc.documentElement.textContent;
     }
     
-    // Jigsaw selector for Team page
     if (match.route.nav_id == "team-link") {
         $("#jigsaw g").on("click", function(event) {
             var clicked = htmlDecode( $(this).children('text')[0].innerHTML );
@@ -98,31 +114,33 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 // Switch between dark and light mode
-document.getElementById("light-switch").addEventListener("click", () => {
-    var curr = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--on'));
-    document.documentElement.style.setProperty('--on', 1 - curr);
-    // dark mode
-    if (curr) {
-        const newColor = "#fff";
-        $.each(pJSDom[0].pJS.particles.array, function(i,p){
-            pJSDom[0].pJS.particles.array[i].color.value = newColor;
-            pJSDom[0].pJS.particles.array[i].color.rgb = hexToRgb(newColor);
-            pJSDom[0].pJS.particles.line_linked.color_rgb_line = hexToRgb(newColor);
-        });
-        $("#navbar").removeClass("navbar-light");
-        $("#navbar").addClass("navbar-dark");
-        $("#news-carousel").removeClass("carousel-dark");
-    }
-    // light mode
-    else {
-        const newColor = "#000";
-        $.each(pJSDom[0].pJS.particles.array, function(i,p){
-            pJSDom[0].pJS.particles.array[i].color.value = newColor;
-            pJSDom[0].pJS.particles.array[i].color.rgb = hexToRgb(newColor);
-            pJSDom[0].pJS.particles.line_linked.color_rgb_line = hexToRgb(newColor);
-        });
-        $("#navbar").removeClass("navbar-dark");
-        $("#navbar").addClass("navbar-light");
-        $("#news-carousel").addClass("carousel-dark");
-    }
+document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("light-switch").addEventListener("click", () => {
+        var curr = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--on'));
+        document.documentElement.style.setProperty('--on', 1 - curr);
+        // dark mode
+        if (curr) {
+            const newColor = "#fff";
+            $.each(pJSDom[0].pJS.particles.array, function(i,p){
+                pJSDom[0].pJS.particles.array[i].color.value = newColor;
+                pJSDom[0].pJS.particles.array[i].color.rgb = hexToRgb(newColor);
+                pJSDom[0].pJS.particles.line_linked.color_rgb_line = hexToRgb(newColor);
+            });
+            $("#navbar").removeClass("navbar-light");
+            $("#navbar").addClass("navbar-dark");
+            $("#news-carousel").removeClass("carousel-dark");
+        }
+        // light mode
+        else {
+            const newColor = "#000";
+            $.each(pJSDom[0].pJS.particles.array, function(i,p){
+                pJSDom[0].pJS.particles.array[i].color.value = newColor;
+                pJSDom[0].pJS.particles.array[i].color.rgb = hexToRgb(newColor);
+                pJSDom[0].pJS.particles.line_linked.color_rgb_line = hexToRgb(newColor);
+            });
+            $("#navbar").removeClass("navbar-dark");
+            $("#navbar").addClass("navbar-light");
+            $("#news-carousel").addClass("carousel-dark");
+        }
+    });
 });

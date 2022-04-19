@@ -30,10 +30,15 @@ function fetchPubs() {
     pubArr.forEach(element => {
         currYear = new Date(element.date).getFullYear();
         if (currYear != year) {
-            year = currYear;
             resultHtml += `
-            <h2 class="liner"> ${year} </h2>
+            ${year != "" ? "</div>" : ""}
+            <h2 data-bs-toggle="collapse" href="#pubs_${currYear}" role="button" aria-expanded="true" aria-controls="${currYear}" class="liner">
+                <span class="fa fa-fw fa-caret-down"></span>
+                ${currYear}
+            </h2>
+            <div class="collapse show" id="pubs_${currYear}">
             `
+            year = currYear;
         }
         resultHtml += `
         <div class="row" style="font-family: var(--bs-font-sans-serif); margin: 1rem !important">
@@ -59,6 +64,10 @@ function fetchPubs() {
         </div>
         `
     });
+    resultHtml += `
+    </div>
+    `
+
     return resultHtml;
 }
 
