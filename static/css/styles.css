@@ -113,14 +113,9 @@ a {
   top: inherit;
   transform: rotate(-135deg);
 }
-.navbar-collapse {
-  margin-top: 1rem;
-}
 .navbar-collapse ul li {
   text-align: center;
 }
-
-
 
 /* ---- light switch ---- */
 :root {

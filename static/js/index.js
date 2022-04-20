@@ -79,17 +79,16 @@ const router = async () => {
 
 
     // Jigsaw selector for Team page
-    function htmlDecode(input) {
-        var doc = new DOMParser().parseFromString(input, "text/html");
-        return doc.documentElement.textContent;
-    }
-    
     if (match.route.nav_id == "team-link") {
         $("#jigsaw g").on("click", function(event) {
-            var clicked = htmlDecode( $(this).children('text')[0].innerHTML );
+            var clicked = $(this).children('text')[0].textContent.replace(/\s+/g, " ").trim();
+            var multi = clicked.split("/");
             $("#team > div").css("display", "none");
-            $(`div[id='${clicked}']`).css("display", "block");
-            $(`div[id='${clicked}']`)[0].scrollIntoView();
+
+            multi.forEach(role => {
+                $(`div[id='${role.trim()}']`).css("display", "block");
+                $(`div[id='${role.trim()}']`)[0].scrollIntoView();
+            })
         });
     }
 
