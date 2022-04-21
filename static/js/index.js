@@ -125,6 +125,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 pJSDom[0].pJS.particles.array[i].color.rgb = hexToRgb(newColor);
                 pJSDom[0].pJS.particles.line_linked.color_rgb_line = hexToRgb(newColor);
             });
+            $("#brand_logo").attr("src", "static/img/amygdala-logo-dark.png");
             $("#navbar").removeClass("navbar-light");
             $("#navbar").addClass("navbar-dark");
             $("#news-carousel").removeClass("carousel-dark");
@@ -137,6 +138,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 pJSDom[0].pJS.particles.array[i].color.rgb = hexToRgb(newColor);
                 pJSDom[0].pJS.particles.line_linked.color_rgb_line = hexToRgb(newColor);
             });
+            $("#brand_logo").attr("src", "static/img/amygdala-logo-light.png");
             $("#navbar").removeClass("navbar-dark");
             $("#navbar").addClass("navbar-light");
             $("#news-carousel").addClass("carousel-dark");

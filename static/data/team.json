@@ -1,5 +1,5 @@
 {
-	"roles": ["founders", "advisors", "mentors", "associates", "interns", "web & media"],
+	"roles": ["founders", "advisors", "mentors", "associates", "apprentices", "web & media"],
 	"people": [{
 			"id": 1,
 			"img": "static/img/team/rajdeep.jpg",
