@@ -64,7 +64,7 @@ const router = async () => {
     // Animation JS for individual pages
 
     // Collapsible div animation for Pubs page
-    if (match.route.nav_id == "pubs-link") {
+    if (match.route.path == "/publications") {
         $(".liner").on("click", function(event) {
             if ($("span", this).hasClass("fa-caret-right")) {
                 $("span", this).removeClass("fa-caret-right");
@@ -79,7 +79,7 @@ const router = async () => {
 
 
     // Jigsaw selector for Team page
-    if (match.route.nav_id == "team-link") {
+    if (match.route.path == "/team") {
         $("#jigsaw g").on("click", function(event) {
             var clicked = $(this).children('text')[0].textContent.replace(/\s+/g, " ").trim();
             var multi = clicked.split("/");
@@ -113,10 +113,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 // Switch between dark and light mode
+
+if (localStorage['on'] == 0) {
+    document.documentElement.style.setProperty('--on', 0);
+    $("#brand_logo").attr("src", "static/img/amygdala-logo-dark.png");
+    $("#navbar").removeClass("navbar-light");
+    $("#navbar").addClass("navbar-dark");
+    $("#news-carousel").removeClass("carousel-dark");
+}
+
 document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("light-switch").addEventListener("click", () => {
         var curr = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--on'));
         document.documentElement.style.setProperty('--on', 1 - curr);
+        localStorage['on'] = 1 - curr;
         // dark mode
         if (curr) {
             const newColor = "#fff";

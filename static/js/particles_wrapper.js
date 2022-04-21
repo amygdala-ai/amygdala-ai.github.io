@@ -1,18 +1,4 @@
-/* -----------------------------------------------
-/* How to use? : Check the GitHub README
-/* ----------------------------------------------- */
-
-/* To load a config file (particles.json) you need to host this demo (MAMP/WAMP/local)... */
-/*particlesJS.load('particles-js', 'particles.json', function() {
-  console.log('particles.js loaded - callback');
-});*/
-
-
-/* Otherwise just put the config content (json): */
-
-
-particlesJS('particles-js',
-  
+var config =
   {
   "particles": {
     "number": {
@@ -120,4 +106,9 @@ particlesJS('particles-js',
   "retina_detect": true
 }
 
-);
+if (localStorage['on'] == 0) {
+  config['particles']['color']['value'] = "#fff";
+  config['particles']['line_linked']['color'] = "#fff";
+}
+
+particlesJS('particles-js', config);

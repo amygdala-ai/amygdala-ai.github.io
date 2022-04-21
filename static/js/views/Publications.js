@@ -4,25 +4,16 @@ function sortDate(a, b) {
     return new Date(b.date).getTime() - new Date(a.date).getTime();
 }
 
-function loadPubs() {
+function fetchPubs() {
     let xhttp = new XMLHttpRequest();
     var pubArr;
     
-    xhttp.open("GET", "static/data/publications.json", false)
+    xhttp.open("GET", "/static/data/publications.json", false)
     xhttp.send(null)
 
     pubArr = JSON.parse(xhttp.responseText);
     pubArr.sort(sortDate);
-    sessionStorage['pubs'] = JSON.stringify(pubArr);
-    return;
-}
 
-function fetchPubs() {
-    if (sessionStorage.getItem("pubs") === null) {
-        loadPubs();
-    }
-    
-    const pubArr = JSON.parse(sessionStorage['pubs']);
     var resultHtml = "";
     var currYear;
     var year = "";

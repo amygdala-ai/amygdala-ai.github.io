@@ -1,26 +1,17 @@
 import AbstractView from "./AbstractView.js";
 
-function loadTeam() {
-    let xhttp = new XMLHttpRequest();
-    
-    xhttp.open("GET", "static/data/team.json", false)
-    xhttp.send(null);
-
-    sessionStorage['team'] = xhttp.responseText;
-    return;
-}
-
 function pascalize(str) {
     return str.replace(/(\w)(\w*)/g,
     function(g0,g1,g2){return g1.toUpperCase() + g2.toLowerCase();});
 }
 
 function fetchTeam() {
-    if (sessionStorage.getItem("team") === null) {
-        loadTeam();
-    }
+    let xhttp = new XMLHttpRequest();
     
-    const teamObj = JSON.parse(sessionStorage['team']);
+    xhttp.open("GET", "/static/data/team.json", false)
+    xhttp.send(null);
+
+    const teamObj = JSON.parse(xhttp.responseText);
 
     // Sort alphabetically
     teamObj.people.sort( function( a, b ) {
@@ -79,7 +70,6 @@ function fetchTeam() {
             </div>
             <div class="row" style="margin-bottom: 2rem">
         `
-        
         teamObj.people.forEach(person => {
             if (person.roles.some(item => item == role)) {
                 resultHtml += `

@@ -1,26 +1,17 @@
 import AbstractView from "./AbstractView.js";
 
-function loadTeam() {
-    let xhttp = new XMLHttpRequest();
-    
-    xhttp.open("GET", "../static/data/team.json", false)
-    xhttp.send(null);
-
-    sessionStorage['team'] = xhttp.responseText;
-    return;
-}
-
 function pascalize(str) {
     return str.replace(/(\w)(\w*)/g,
     function(g0,g1,g2){return g1.toUpperCase() + g2.toLowerCase();});
 }
 
 function fetchPersonBio(person_id) {
-    if (sessionStorage.getItem("team") === null) {
-        loadTeam();
-    }
+    let xhttp = new XMLHttpRequest();
     
-    const teamObj = JSON.parse(sessionStorage['team']);
+    xhttp.open("GET", "/static/data/team.json", false)
+    xhttp.send(null);
+
+    const teamObj = JSON.parse(xhttp.responseText);
     const foundId = [].concat.apply([], Object.values(teamObj)).find(element => element.id === person_id);
     var resultHtml = "";
 
@@ -105,25 +96,16 @@ function sortDate(a, b) {
     return new Date(b.date).getTime() - new Date(a.date).getTime();
 }
 
-function loadPubs() {
+function fetchPersonPubs(person_id) {
     let xhttp = new XMLHttpRequest();
     var pubArr;
     
-    xhttp.open("GET", "../static/data/publications.json", false)
+    xhttp.open("GET", "/static/data/publications.json", false)
     xhttp.send(null)
 
     pubArr = JSON.parse(xhttp.responseText);
     pubArr.sort(sortDate);
-    sessionStorage['pubs'] = JSON.stringify(pubArr);
-    return;
-}
 
-function fetchPersonPubs(person_id) {
-    if (sessionStorage.getItem("pubs") === null) {
-        loadPubs();
-    }
-    
-    var pubArr = JSON.parse(sessionStorage['pubs']);
     var resultHtml = "";
 
     pubArr = pubArr.filter( x => x.author_ids.includes(person_id) );
