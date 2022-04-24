@@ -149,6 +149,36 @@
 			"twitter": "",
 			"bio": "Anjan Chowdhury is currrently a SRF at Center for Soft Computing Research, Indian Statistical Institute Kolkata. Before that he earned B.E in computer science from  IIEST, Shibpur and M.Tech in the same field from IIT Bombay. Some of his research interest includes machine learning, complex networks, brain computer interfacing using EEG and fMRI signals and so on.",
 			"roles": ["mentors"]
+		},
+		{
+			"id": 11,
+			"img": "static/img/team/rudrashis.jpg",
+			"name": "Rudrashish Das",
+			"position": "B.Tech, Computer Science at KIIT University",
+			"e_mail": "rudrashishdas0@gmail.com",
+			"phone": "",
+			"website": "",
+			"google_scholar": "",
+			"linkedin": "linkedin.com/in/rudrashish-das",
+			"facebook": "",
+			"twitter": "https://twitter.com/RudrashishDas",
+			"bio": "Hey, I am Rudrashish Das, a computer science engineer in making. I am a person who is always learning new skills, technologies and ways to communicate better with my team. What drives me is the desire to face the challenge of solving unsolved problems. Reach out to rudrashishdas0@gmail.com to connect.",
+			"roles": ["apprentices"]
+		},
+		{
+			"id": 12,
+			"img": "static/img/team/gyanig.jpg",
+			"name": "Gyanig Kumar",
+			"position": "Research Intern at IISc | Computer Vision | Algorithms",
+			"e_mail": "gyanig.kumar@gmail.com",
+			"phone": "",
+			"website": "",
+			"google_scholar": "",
+			"linkedin": "https://www.linkedin.com/in/gyanig-k-b36666146",
+			"facebook": "",
+			"twitter": "",
+			"bio": "Gyanig Kumar is currently interning at IISc Bangalore as a Research Intern under Prof. Pradipta Biswas at I3D Labs. He is pursuing B.Tech in Computer Science and Systems Engineering from KIIT University. At a young age, he was awarded the Innovation Award for School Children by C.S.I.R India for his IoT project on two-wheeler vehicle safety. He has working knowledge of Robotics and pursuing an interest in computer vision applications, Human-Computer Interactions and Deep learning research.",
+			"roles": ["apprentices"]
 		}
 	]
 }
