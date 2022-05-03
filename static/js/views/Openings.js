@@ -32,7 +32,12 @@ export default class extends AbstractView {
                     <b style="font-size: 1.25rem; color: teal">Associates</b> are the ones who work on the hands-on implementation of the research ideas of the advisors with help of the mentors.
                     Anyone with research high research interest and motivation for academic publication are suitable for this role.
                     Having previous publications is not required, however, good coding skills (preferably in Python or C++) and familiarity with object-oriented programming approach would be optimal.
-                    If you want to join us as an associate, please <b>fill the Google form</b> at the end of this page.
+                    If you want to join us as an associate, please <b>fill the Google form</b> at the end of this page. But please note, one can not get this position directly. First you need to be an apprentice and work for a project with some of our mentors and advisors. After you write and submit a research paper with us, you will be given the Associate position.
+                </p>
+                
+                <p style="text-align:justify">
+                    <b style="font-size: 1.25rem; color: teal">Apprentice</b> is the initial step of being an Associate and role wise also it is same as associate. After you submit a research paper with us you will be assigned associate position. If your progress is not satisfactory even some reasonable amount of time, you won't be given Associate post and might even loose the apprentice position. 
+                    If you want to join us as an associate, please <b>fill the Google form</b> at the end of this page. You will be given apprentice post.
                 </p>
 
                 <p style="text-align: center; margin-top: 4rem; margin-bottom: 4rem">
