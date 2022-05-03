@@ -2,8 +2,8 @@
 	"roles": ["founders", "advisors", "mentors", "associates", "apprentices", "web & media"],
 	"people": [{
 			"id": 1,
-			"img": "static/img/team/rajdeep.jpg",
-			"name": "Rajdeep Chatterjee",
+			"img": "/static/img/team/rajdeep.jpg",
+			"name": "Dr. Rajdeep Chatterjee",
 			"position": "Associate Professor, KIIT University",
 			"e_mail": "",
 			"phone": "",
@@ -17,7 +17,7 @@
 		},
 		{
 			"id": 2,
-			"img": "static/img/team/tathagata.jpeg",
+			"img": "/static/img/team/tathagata.jpeg",
 			"name": "Tathagata Bandyopadhyay",
 			"position": "MSc Informatics at TUM",
 			"e_mail": "tathagata.bandyopadhyay@tum.de",
@@ -32,7 +32,7 @@
 		},
 		{
 			"id": 3,
-			"img": "static/img/team/anish.jpg",
+			"img": "/static/img/team/anish.jpg",
 			"name": "Anish Pathak",
 			"position": "Full Stack Developer",
 			"e_mail": "anish.pathak5@gmail.com",
@@ -47,7 +47,7 @@
 		},
 		{
 			"id": 4,
-			"img": "static/img/team/ankita.jpg",
+			"img": "/static/img/team/ankita.jpg",
 			"name": "Ankita Chatterjee",
 			"position": "JRF at IIT Bhubaneswar",
 			"e_mail": "",
@@ -62,7 +62,7 @@
 		},
 		{
 			"id": 5,
-			"img": "static/img/team/mahendra.jpg",
+			"img": "/static/img/team/mahendra.jpg",
 			"name": "Mahendra Kumar Gourisaria",
 			"position": "Assistant Professor at KIIT",
 			"e_mail": "mkgourisariafcs@kiit.ac.in",
@@ -77,7 +77,7 @@
 		},
 		{
 			"id": 6,
-			"img": "static/img/team/soham.jpg",
+			"img": "/static/img/team/soham.jpg",
 			"name": "Soham Roy",
 			"position": "MSc in Data Science and AI at Saarland University",
 			"e_mail": "",
@@ -92,7 +92,7 @@
 		},
 		{
 			"id": 7,
-			"img": "static/img/team/atri.jpg",
+			"img": "/static/img/team/atri.jpg",
 			"name": "Atri Biswas",
 			"position": "Application Development Associate at Accenture",
 			"e_mail": "",
@@ -107,7 +107,7 @@
 		},
 		{
 			"id": 8,
-			"img": "static/img/team/akshita.jpg",
+			"img": "/static/img/team/akshita.jpg",
 			"name": "Akshita Sah",
 			"position": "B.Tech. Computer Science at KIIT University",
 			"e_mail": "akshita.asah@gmail.com",
@@ -122,7 +122,7 @@
 		},
 		{
 			"id": 9,
-			"img": "static/img/team/saptarshi.jpg",
+			"img": "/static/img/team/saptarshi.jpg",
 			"name": "Saptarshi Mazumdar",
 			"position": "Associate Software Developer I at HighRadius",
 			"e_mail": "",
@@ -137,7 +137,7 @@
 		},
 		{
 			"id": 10,
-			"img": "static/img/team/anjan.jpg",
+			"img": "/static/img/team/anjan.jpg",
 			"name": "Anjan Chowdhury",
 			"position": "SRF at ISI Kolkata",
 			"e_mail": "anjanchowdhury88@gmail.com",
@@ -152,7 +152,7 @@
 		},
 		{
 			"id": 11,
-			"img": "static/img/team/rudrashis.jpg",
+			"img": "/static/img/team/rudrashis.jpg",
 			"name": "Rudrashish Das",
 			"position": "B.Tech, Computer Science at KIIT University",
 			"e_mail": "rudrashishdas0@gmail.com",
@@ -167,7 +167,7 @@
 		},
 		{
 			"id": 12,
-			"img": "static/img/team/gyanig.jpg",
+			"img": "/static/img/team/gyanig.jpg",
 			"name": "Gyanig Kumar",
 			"position": "Research Intern at IISc | Computer Vision | Algorithms",
 			"e_mail": "gyanig.kumar@gmail.com",
@@ -182,7 +182,7 @@
 		},
 		{
 			"id": 13,
-			"img": "static/img/team/dipak.jpg",
+			"img": "/static/img/team/dipak.jpg",
 			"name": "Dr. Dipak Kumar Mohanty",
 			"position": "Assistant Professor, KIIT University",
 			"e_mail": "",
@@ -192,8 +192,23 @@
 			"linkedin": "",
 			"facebook": "",
 			"twitter": "",
-			"bio": "Dr. Dipak Kumar Mohanty has 15 years of experience in teaching Computer Science and Mathematics Subjects meant for B.Tech and M.Tech. Students. He completed his MSc. MCA, and  M.Tech in Computer Science from Utkal University Bhubaneswar, Odisha in 2003, 2007, and 2010 respectively. He obtained Ph.D degree in Stochastic Programming using Soft Computing Techniques from IIT Kharagpur, India in 2020. His research area includes Stochastic Programming, Soft Computing, Mullti-criteraia Decision Making, Machine Learning, and Data Science. Now he is working as an Assistant Professor in School of Computer Engineering, KIIT University, Bhubaneswar, Odisha",
+			"bio": "Dr. Dipak Kumar Mohanty has 15 years of experience in teaching Computer Science and Mathematics Subjects meant for B.Tech and M.Tech. Students. He completed his MSc. MCA, and  M.Tech in Computer Science from Utkal University Bhubaneswar, Odisha in 2003, 2007, and 2010 respectively. He obtained Ph.D degree in Stochastic Programming using Soft Computing Techniques from IIT Kharagpur, India in 2020. His research area includes Stochastic Programming, Soft Computing, Mullti-criteraia Decision Making, Machine Learning, and Data Science. Now he is working as an Assistant Professor in School of Computer Engineering, KIIT University, Bhubaneswar, Odisha.",
 			"roles": ["advisors"]
+		},
+		{
+			"id": 14,
+			"img": "/static/img/team/tanmay.jpg",
+			"name": "Tanmay Goyal",
+			"position": "Branding and Digital Marketing Strategist",
+			"e_mail": "",
+			"phone": "",
+			"website": "https://www.hashbugs.com/",
+			"google_scholar": "",
+			"linkedin": "https://www.linkedin.com/in/tanmaygoyal/",
+			"facebook": "",
+			"twitter": "",
+			"bio": "Tanmay Goyal is a technocrat turned serial entrepreneur who strives to digitize modern businesses with innovation in the media, branding, web, and digital marketing landscape. He is the Co-founder of HashBUGS Solutions Private Limited, one of the leading Branding, Marketing, and Digital Transformation companies. He plays crucial leadership roles in a range of functions from technology management, marketing, design, and development to business development. He received his Bachelor of Business Administration from Amity Global Business School Bangalore, India.",
+			"roles": ["web & media"]
 		}
 	]
 }

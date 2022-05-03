@@ -184,7 +184,7 @@ export default class extends AbstractView {
             </div>
         </div>
 
-        <h2 class="liner"> Collaborators </h2>
+        <h2 class="liner"> We Have Collaborators From </h2>
         <div class="container-fluid" style="width: auto !important; margin: 2rem 1rem 1rem 1rem;">
             <div class="row text-center" style="justify-content: space-between;">
                 <div class="col-lg-3">
@@ -192,12 +192,12 @@ export default class extends AbstractView {
                     <h6> Kalinga Institute of Industrial Technology </h6> </a>
                 </div>
                 <div class="col-lg-3">
-                    <a class="link" href="https://www.cineconf.org/" target="_blank"> <img src="static/img/CINE2020-logo.webp" style="height:50px;  margin-bottom:10px">
-                    <h6> International Conference on Computational Intelligence and Networks </h6> </a>
-                </div>
-                <div class="col-lg-3">
                     <a class="link" href="https://www.tum.de/" target="_blank"><img src="static/img/TUM-logo.png" style="height:50px; margin-bottom:10px">
                     <h6> Technical University Munich </h6> </a>
+                </div>
+                <div class="col-lg-3">
+                    <a class="link" href="https://www.uni-saarland.de/" target="_blank"> <img src="static/img/Saarland-Uni-logo.png" style="height:50px;  margin-bottom:10px">
+                    <h6> Saarland University </h6> </a>
                 </div>
             </div>
         </div>

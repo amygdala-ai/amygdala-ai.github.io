@@ -51,27 +51,27 @@ function fetchPersonBio(person_id) {
                 `
         if (foundId.google_scholar) {
             resultHtml += `
-                    <a href="${foundId.google_scholar}" class="link" target="_blank"><span class="ai ai-google-scholar-square fa-lg" style="color: teal"></span></a>
+                    <a href="${foundId.google_scholar}" class="link" target="_blank"><span class="ai ai-google-scholar-square fa-lg"></span></a>
             `
         }
         if (foundId.linkedin) {
             resultHtml += `
-                    <a href="${foundId.linkedin}" class="link" target=" _blank"><span class="fa fa-linkedin-square fa-lg" style="color: teal"></span></a>
+                    <a href="${foundId.linkedin}" class="link" target=" _blank"><span class="fa fa-linkedin-square fa-lg"></span></a>
             `
         }
         if (foundId.website) {
             resultHtml += `
-                    <a href="${foundId.website}" class="link" target="_blank"><span class="fa fa-globe fa-lg" style="color: teal"></span></a>
+                    <a href="${foundId.website}" class="link" target="_blank"><span class="fa fa-globe fa-lg"></span></a>
             `
         }
         if (foundId.facebook) {
             resultHtml += `
-                    <a href="${foundId.facebook}" class="link" target="_blank"><span class="fa fa-facebook-square fa-lg" style="color: teal"></span></a>
+                    <a href="${foundId.facebook}" class="link" target="_blank"><span class="fa fa-facebook-square fa-lg"></span></a>
             `
         }
         if (foundId.twitter) {
             resultHtml += `
-                    <a href="${foundId.twitter}" class="link" target="_blank"><span class="fa fa-twitter-square fa-lg" style="color: teal"></span></a>
+                    <a href="${foundId.twitter}" class="link" target="_blank"><span class="fa fa-twitter-square fa-lg"></span></a>
             `
         }
         resultHtml += `
