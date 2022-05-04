@@ -1,3 +1,7 @@
+:root {
+  --color-primary: teal;
+  --color-secondary: var(--bs-teal);
+}
 body, html {
   height: 100%;
 }
@@ -38,6 +42,34 @@ a {
   margin: 1rem auto 1rem auto;
 }
 
+/* ---- scroll to top ---- */
+#scroll {
+  z-index: 2;
+  position: fixed;
+  right: 0.75rem;
+  bottom: 0.75rem;
+  cursor: pointer;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: var(--color-primary);
+  display: none;
+  border-radius: 2.5rem;
+}
+#scroll span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -8px;
+  margin-top: -12px;
+  height: 0;
+  width: 0;
+  border: 8px solid transparent;
+  border-bottom-color: white;
+}
+#scroll:hover {
+  background-color: var(--color-secondary);
+}
+
 /* ---- navbar ---- */
 .navbar-collapse {
   justify-content: end;
@@ -47,7 +79,7 @@ a {
 }
 .nav-link.active {
   border-radius: 0.25rem;
-  background-color: teal;
+  background-color: var(--color-primary);
   color: white !important;
 }
 .navbar-toggler {
@@ -74,7 +106,7 @@ a {
   position: absolute;
   height: 3px;
   width: 100%;
-  background: teal;
+  background: var(--color-primary);
   border-radius: 1px;
   opacity: 1;
   left: 0;
@@ -164,7 +196,7 @@ a {
   padding: 0 0.5rem 0.5rem 0.5rem;
   background: rgb(calc(255 * var(--on)), calc(255 * var(--on)), calc(255 * var(--on)));
   color: rgb(calc(255 * (1 - var(--on))), calc(255 * (1 - var(--on))), calc(255 * (1 - var(--on))));
-  border: 1px solid teal;
+  border: 1px solid var(--color-primary);
   border-radius: 1rem;
 }
 
@@ -253,18 +285,14 @@ a {
 .content-details {
   color: white;
   position: absolute;
-  text-align: justify;
+  text-align: center;
   padding-left: 1em;
   padding-right: 1em;
   width: 90%;
   top: 50%;
   left: 50%;
   opacity: 0;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  -moz-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
 .content:hover .content-details{
@@ -280,11 +308,11 @@ a {
 .piece {
   stroke-miterlimit: 10;
   stroke-width: 29.32px;
-  fill: teal;
+  fill: var(--color-primary);
   stroke: aquamarine;
 }
 .piece:hover {
-  fill: var(--bs-teal);
+  fill: var(--color-secondary);
 }
 .piece-text {
   font-size: 12.5rem;
@@ -299,7 +327,7 @@ a {
   display: flex;
   align-items: center;
   text-align: left;
-  color: teal;
+  color: var(--color-primary);
   padding-bottom: 1rem;
   padding-top: 1.5rem;
 }
@@ -307,17 +335,17 @@ a {
   content: '';
   flex-grow: 1;
   height: 1px;
-  background: teal;
+  background: var(--color-primary);
   min-width: 20px;
   margin: auto;
   margin-left: 20px;
 }
 .link {
   text-decoration: none;
-  color: teal;
+  color: var(--color-primary);
 }
 .link:hover {
-  color: var(--bs-teal);
+  color: var(--color-secondary);
 }
 .thumbnail {
   border-radius: 1rem;
@@ -349,7 +377,7 @@ a {
   margin-bottom: 1rem;
 }
 .rounded-circle {
-  border: solid 0.2rem teal;
+  border: solid 0.2rem var(--color-primary);
 }
 .col-personal-info {
   display: flex;
@@ -373,13 +401,13 @@ a {
   .inner-container{
     padding: 0 2rem 2rem 2rem;
     opacity: 0.9;
-    border: 2px solid teal;
-    box-shadow: 0 0 10px var(--bs-teal);
+    border: 2px solid var(--color-primary);
+    box-shadow: 0 0 10px var(--color-secondary);
   }
   .inner-container:hover {
     opacity: 1;
-    border: 2px solid var(--bs-teal);
-    box-shadow: 0 0 15px var(--bs-teal);
+    border: 2px solid var(--color-secondary);
+    box-shadow: 0 0 15px var(--color-secondary);
   }
   .img-container{
     width: 50%;

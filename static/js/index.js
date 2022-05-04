@@ -111,9 +111,22 @@ document.addEventListener("DOMContentLoaded", () => {
     router();
 });
 
+// Scroll to top
+$(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('#scroll').fadeIn(); 
+        } else { 
+            $('#scroll').fadeOut(); 
+        } 
+    }); 
+    $('#scroll').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 0); 
+        return false; 
+    }); 
+});
 
 // Switch between dark and light mode
-
 if (localStorage['on'] == 0) {
     document.documentElement.style.setProperty('--on', 0);
     $("#brand_logo").attr("src", "static/img/amygdala-logo-dark.png");

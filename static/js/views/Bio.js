@@ -89,6 +89,7 @@ function fetchPersonBio(person_id) {
         </div>
         `
     }
+
     return resultHtml;
 }
 
@@ -162,6 +163,11 @@ export default class extends AbstractView {
     }
 
     async getHtml() {
+        if ('scrollRestoration' in history) {
+            history.scrollRestoration = 'manual';
+        }
+        window.scrollTo(0,0);
+
         return fetchPersonPage(this.personId);
     }
 }
