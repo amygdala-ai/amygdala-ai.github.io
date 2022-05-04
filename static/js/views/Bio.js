@@ -17,14 +17,14 @@ function fetchPersonBio(person_id) {
 
     if (foundId) {
         resultHtml += `
-        <div class="row" style="margin-top: 0.625rem; margin-bottom: 1.25rem;">
+        <div class="row" style="margin: 0.625rem 0 1.25rem 0;">
             <h2 class="text-center"> ${pascalize(foundId.name)} </h2>
         </div>
-        <div class="row" style="margin-top: 0.625rem; margin-bottom: 0.625rem; align-items: center;">
+        <div class="row" style="margin: 0.625rem 0; align-items: center;">
             <div class="col-md-6 col-personal-photo">
-                <img class="rounded-circle" height="200px" width="200px" src="../${foundId.img}" style="border: solid 0.2rem teal;">
+                <img class="rounded-circle" height="200px" width="200px" src="../${foundId.img}">
             </div>
-            <div class="col-md-6 col-personal-info" style="display: flex; flex-direction: column; gap: 0.5rem">
+            <div class="col-md-6 col-personal-info" style="">
                 <div>
                     <span class="fa fa-fw fa-profile fa-briefcase"></span>
                     ${foundId.position}
@@ -47,7 +47,7 @@ function fetchPersonBio(person_id) {
             `
         }
         resultHtml += `
-                <div style="display:flex; gap: 0.75rem;">
+                <div style="display: flex; gap: 0.75rem;">
                 `
         if (foundId.google_scholar) {
             resultHtml += `

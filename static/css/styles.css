@@ -344,16 +344,18 @@ a {
   font-style: italic;
 }
 .col-personal-photo {
-  text-align: center;
-  margin-right: auto;
-  margin-left: auto;
+  display: flex;
+  justify-content: center;
   margin-bottom: 1rem;
 }
+.rounded-circle {
+  border: solid 0.2rem teal;
+}
 .col-personal-info {
-  text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem
 }
 .footer {
   z-index: 1;
@@ -383,13 +385,9 @@ a {
     width: 50%;
   }
   .col-personal-photo {
-    text-align: right;
-    margin-right: auto;
-    margin-left: auto;
+    justify-content: flex-end;
   }
   .col-personal-info {
-    text-align: left;
-    margin-right: auto;
-    margin-left: auto;
+    align-items: flex-start;
   }
 }

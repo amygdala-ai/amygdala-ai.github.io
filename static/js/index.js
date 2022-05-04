@@ -87,8 +87,8 @@ const router = async () => {
 
             multi.forEach(role => {
                 $(`div[id='${role.trim()}']`).css("display", "block");
-                $(`div[id='${role.trim()}']`)[0].scrollIntoView();
-            })
+            });
+            $(`div[id='${multi[0].trim()}']`)[0].scrollIntoView();
         });
     }
 
