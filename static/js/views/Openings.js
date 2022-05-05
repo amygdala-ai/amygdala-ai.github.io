@@ -36,7 +36,7 @@ export default class extends AbstractView {
                 </p>
                 
                 <p style="text-align:justify">
-                    <b style="font-size: 1.25rem; color: teal">Apprentice</b> is the initial step of being an Associate and role wise also it is same as associate. After you submit a research paper with us you will be assigned associate position. If your progress is not satisfactory even some reasonable amount of time, you won't be given associate post and might even loose the apprentice position. 
+                    <b style="font-size: 1.25rem; color: teal">Apprentice</b> is the initial step of being an associate. Role wise it is same as associate but it is kind of a temporary position. After you submit a research paper with us you will be upgraded to associate post. However, even after some reasonable amount of time, if your efforts for making progress is not satisfactory as an aprentice, you may lose the position. 
                     If you want to join us as an associate, please <b>fill the Google form</b> at the end of this page. You will be given apprentice post initially.
                 </p>
 
