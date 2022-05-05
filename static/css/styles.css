@@ -1,6 +1,7 @@
 :root {
   --color-primary: teal;
   --color-secondary: var(--bs-teal);
+  --color-tertiary: aquamarine;
 }
 body, html {
   height: 100%;
@@ -66,7 +67,7 @@ a {
   border: 8px solid transparent;
   border-bottom-color: white;
 }
-#scroll:hover {
+#scroll:active {
   background-color: var(--color-secondary);
 }
 
@@ -309,14 +310,14 @@ a {
   stroke-miterlimit: 10;
   stroke-width: 29.32px;
   fill: var(--color-primary);
-  stroke: aquamarine;
-}
-.piece:hover {
-  fill: var(--color-secondary);
+  stroke: var(--color-tertiary);
 }
 .piece-text {
   font-size: 12.5rem;
   fill: white;
+}
+#jigsaw g:hover .piece {
+  fill: var(--color-secondary);
 }
 #jigsaw g {
   cursor: pointer;
@@ -336,9 +337,9 @@ a {
   flex-grow: 1;
   height: 1px;
   background: var(--color-primary);
-  min-width: 20px;
+  min-width: 1rem;
   margin: auto;
-  margin-left: 20px;
+  margin-left: 1rem;
 }
 .link {
   text-decoration: none;
@@ -417,5 +418,8 @@ a {
   }
   .col-personal-info {
     align-items: flex-start;
+  }
+  #scroll:hover {
+    background-color: var(--color-secondary);
   }
 }
