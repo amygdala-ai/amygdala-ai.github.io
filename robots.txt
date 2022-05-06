@@ -1,1 +1,1 @@
-Sitemap: https://amygdala-ai.github.io/sitemap.txt
+Sitemap: https://amygdala-ai.github.io/sitemap.xml

@@ -7,6 +7,10 @@ export default class {
         document.title = title;
     }
 
+    setDesc(desc) {
+        document.querySelector('meta[name="description"]').setAttribute("content", desc);
+    }
+
     async getHtml() {
         return "";
     }

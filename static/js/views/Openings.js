@@ -3,7 +3,7 @@ import AbstractView from "./AbstractView.js";
 export default class extends AbstractView {
     constructor(params) {
         super(params);
-        this.setTitle("Amygdala AI: Openings");
+        this.setTitle("Openings - Amygdala AI");
     }
 
     async getHtml() {

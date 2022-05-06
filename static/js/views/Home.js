@@ -29,7 +29,7 @@ export default class extends AbstractView {
         
         resultHtml += `
         <h2 class="liner"> Latest in AI </h2>
-        <div id="news-carousel" class="carousel ${curr ? "carousel-dark": ""} slide" data-bs-ride="carousel">
+        <section id="news-carousel" class="carousel ${curr ? "carousel-dark": ""} slide" data-bs-ride="carousel">
             <div class="carousel-inner">
         `
 
@@ -72,10 +72,10 @@ export default class extends AbstractView {
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
-        </div>
+        </section>
 
         <h2 class="liner"> Who We Are </h2>
-        <div>
+        <section>
             <p style="text-align: justify">
                 Amygdala AI is an open non-profit platform for cutting edge AI research with a pragmatic focus on addressing real-life use cases with intelligent algorithms for a better tomorrow.
                 Our goal is to co-operate, complement and collaborate globally to push the current state of the arts in varied subdomains of artificial intelligence and machine learning research with sustainable development goals. 
@@ -124,10 +124,10 @@ export default class extends AbstractView {
                     Henry Ford
                 </figcaption>
             </figure>
-        </div>
+        </section>
 
         <h2 class="liner"> Research Areas </h2>
-        <div style="display: inline-block">
+        <section style="display: inline-block">
             <div class="img-container">
                 <div class="content">
                     <div class="content-overlay"></div>
@@ -182,10 +182,10 @@ export default class extends AbstractView {
                     </a>
                 </div>
             </div>
-        </div>
+        </section>
 
         <h2 class="liner"> We Have Collaborators From </h2>
-        <div class="container-fluid" style="width: auto !important; margin: 2rem 1rem 1rem 1rem;">
+        <section class="container-fluid" style="width: auto !important; margin: 2rem 1rem 1rem 1rem;">
             <div class="row text-center" style="justify-content: space-between;">
                 <div class="col-lg-3">
                     <a class="link" href="https://kiit.ac.in/" target="_blank"> <img src="static/img/KIIT-logo.png" style="height:50px;  margin-bottom:10px">
@@ -200,7 +200,7 @@ export default class extends AbstractView {
                     <h6> Saarland University </h6> </a>
                 </div>
             </div>
-        </div>
+        </section>
         `;
 
         return resultHtml;
