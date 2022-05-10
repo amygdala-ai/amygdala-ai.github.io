@@ -299,21 +299,6 @@
 			"twitter": "",
 			"bio": "Aditya Manglik is a graduate student in machine learning and computer engineering at ETH Zurich, Switzerland. He completed his Bachelor’s in Engineering (Hons) in Electrical and Electronics Engineering from Birla Institute of Technology and Sciences, Pilani, Rajasthan, India. His research interests include machine learning, and design and critical analysis of high-performance computing (HPC) systems.",
 			"roles": ["mentors"]
-		},
-		{
-			"id": 22,
-			"img": "/static/img/team/umar.jpg",
-			"name": "Umar Masud",
-			"position": "Undergraduate Student",
-			"e_mail": "um71000@gmail.com",
-			"phone": "",
-			"website": "https://umar07.github.io/",
-			"google_scholar": "",
-			"linkedin": "https://www.linkedin.com/in/umarmasud",
-			"facebook": "",
-			"twitter": "",
-			"bio": "I am a pre-final year undergrad at JMI University, New Delhi. My interest is in research in the field of ML/AI and Computer Vision. I have applied knowledge of Image Processing, Machine Learning, and Deep Learning, with hands-on practice in various image-related tasks in Computer Vision. I keep reading multiple relevant pieces of literature and try to implement them in code. I also have a basic to intermediate knowledge of web development technologies. Apart from exploring the latest research and technology developments, I can be found consuming content about innovation, ideas, entrepreneurship, start-ups, finance, and alike. A keen interest in the start-up ecosystem.",
-			"roles": ["mentors"]
 		}
 	]
 }
