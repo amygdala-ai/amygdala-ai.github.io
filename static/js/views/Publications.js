@@ -65,7 +65,7 @@ function fetchPubs() {
 export default class extends AbstractView {
     constructor(params) {
         super(params);
-        this.setTitle("Amygdala AI: Publications");
+        this.setTitle("Publications - Amygdala AI");
     }
 
     async getHtml() {

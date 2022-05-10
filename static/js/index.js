@@ -80,8 +80,11 @@ const router = async () => {
 
     // Jigsaw selector for Team page
     if (match.route.path == "/team") {
-        $("#jigsaw g").on("click", function(event) {
-            var clicked = $(this).children('text')[0].textContent.replace(/\s+/g, " ").trim();
+        $("#jigsaw > g").on("click", function(event) {
+            $("#jigsaw > g > path").css("fill", "");
+            $(this).children("path").css("fill", "var(--color-secondary)");
+
+            var clicked = $(this).children("text")[0].textContent.replace(/\s+/g, " ").trim();
             var multi = clicked.split("/");
             $("#team > div").css("display", "none");
 
