@@ -188,30 +188,24 @@ export default class extends AbstractView {
         <section class="container-fluid" style="width: auto !important; margin: 2rem 1rem 1rem 1rem;">
             <div class="row text-center" style="justify-content: space-between;">
                 <div class="col-lg-3">
-                    <a class="link" href="https://www.cmu.edu/" target="_blank"> <img src="static/img/cmu-logo.png" style="height:50px;  margin-bottom:10px">
-                    <h6> Carnegie Mellon University </h6> </a>
+                    <a class="link" href="https://www.cmu.edu/" target="_blank"> <img src="static/img/cmu-logo.png" style="height:50px;  margin-bottom:10px"></a>
                 </div>
                 <div class="col-lg-3">
-                    <a class="link" href="https://ethz.ch/en.html" target="_blank"><img src="static/img/eth-logo.png" style="height:50px; margin-bottom:10px">
-                    <h6> ETH Zürich </h6> </a>
+                    <a class="link" href="https://ethz.ch/en.html" target="_blank"><img src="static/img/eth-logo.png" style="height:50px; margin-bottom:10px"></a>
                 </div>
                 <div class="col-lg-3">
-                    <a class="link" href="https://kiit.ac.in/" target="_blank"> <img src="static/img/KIIT-logo.png" style="height:50px;  margin-bottom:10px">
-                    <h6> Kalinga Institute of Industrial Technology </h6> </a>
+                    <a class="link" href="https://kiit.ac.in/" target="_blank"> <img src="static/img/KIIT-logo.png" style="height:50px;  margin-bottom:10px"></a>
                 </div>
             </div>
             <div class="row text-center" style="justify-content: space-between;">
                 <div class="col-lg-3">
-                    <a class="link" href="https://www.uni-saarland.de/" target="_blank"> <img src="static/img/Saarland-Uni-logo.png" style="height:50px;  margin-bottom:10px">
-                    <h6> Saarland University </h6> </a>
+                    <a class="link" href="https://www.uni-saarland.de/" target="_blank"> <img src="static/img/Saarland-Uni-logo.png" style="height:50px;  margin-bottom:10px"></a>
                 </div>
                 <div class="col-lg-3">
-                    <a class="link" href="https://www.tum.de/" target="_blank"><img src="static/img/TUM-logo.png" style="height:50px; margin-bottom:10px">
-                    <h6> Technical University Munich </h6> </a>
+                    <a class="link" href="https://www.tum.de/" target="_blank"><img src="static/img/TUM-logo.png" style="height:50px; margin-bottom:10px"></a>
                 </div>
                 <div class="col-lg-3">
-                    <a class="link" href="https://www.utwente.nl/en/" target="_blank"> <img src="static/img/twente-logo.png" style="height:50px;  margin-bottom:10px">
-                    <h6> University of Twente </h6> </a>
+                    <a class="link" href="https://www.utwente.nl/en/" target="_blank"> <img src="static/img/twente-logo.png" style="height:50px;  margin-bottom:10px"></a>
                 </div>
             </div>
         </section>
