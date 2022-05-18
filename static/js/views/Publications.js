@@ -24,7 +24,7 @@ function fetchPubs() {
             resultHtml += `
             ${year != "" ? "</div>" : ""}
             <h2 data-bs-toggle="collapse" href="#pubs_${currYear}" role="button" aria-expanded="true" aria-controls="${currYear}" class="liner">
-                <span class="fa fa-fw fa-caret-down"></span>
+                <i class="fa fa-fw fa-caret-down"></i>
                 ${currYear}
             </h2>
             <div class="collapse show" id="pubs_${currYear}">

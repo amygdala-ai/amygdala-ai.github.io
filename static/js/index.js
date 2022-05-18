@@ -66,13 +66,13 @@ const router = async () => {
     // Collapsible div animation for Pubs page
     if (match.route.path == "/publications") {
         $(".liner").on("click", function(event) {
-            if ($("span", this).hasClass("fa-caret-right")) {
-                $("span", this).removeClass("fa-caret-right");
-                $("span", this).addClass("fa-caret-down");
+            if ($("i", this).hasClass("fa-caret-right")) {
+                $("i", this).removeClass("fa-caret-right");
+                $("i", this).addClass("fa-caret-down");
             } 
             else {
-                $("span", this).removeClass("fa-caret-down");
-                $("span", this).addClass("fa-caret-right");
+                $("i", this).removeClass("fa-caret-down");
+                $("i", this).addClass("fa-caret-right");
             }
         });
     }
@@ -113,6 +113,14 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     router();
 });
+
+// Display content after intro
+$(document).ready(function(){
+    setTimeout(function(){
+       $("#outer_container").show();
+       $("#footer").show();
+    }, 2500);
+ });
 
 // Scroll to top
 $(document).ready(function(){ 
