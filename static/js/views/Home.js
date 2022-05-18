@@ -199,6 +199,7 @@ export default class extends AbstractView {
                     </a>
                 </div>
             </div>
+            <br>
             <div class="row text-center" style="justify-content: space-between;">
                 <div class="col-lg-3">
                     <a class="link" href="https://www.liverpool.ac.uk/" target="_blank"> <img src="static/img/liverpool-logo.png" style="height:50px;  margin-bottom:10px">
