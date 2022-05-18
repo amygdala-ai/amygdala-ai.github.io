@@ -17,6 +17,26 @@ a {
   --bs-gutter-y: 1rem !important;
 }
 
+.intro {
+  height: 100vh;
+  z-index: 20;
+  object-fit: contain;
+  background-color: white;
+  animation: cssAnimation 0s ease-in 2.5s forwards, fadeOut ease-in-out 3.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes cssAnimation {
+  to {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+  }
+}
+@keyframes fadeOut {
+  0% {opacity: 1;}
+  100% {opacity: 0;} 
+} 
+
 /* ---- custom scrollbar ---- */
 *::-webkit-scrollbar {
   width: 10px;
