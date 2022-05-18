@@ -188,7 +188,7 @@ export default class extends AbstractView {
         <section class="container-fluid" style="width: auto !important; margin: 2rem 1rem 1rem 1rem;">
             <div class="row text-center" style="justify-content: space-between;">
                 <div class="col-lg-3">
-                    <a class="link" href="https://www.cmu.edu/" target="_blank"> <img src="static/img/cmu-logo.png" style="height:75px;  margin-bottom:10px">
+                    <a class="link" href="https://www.cmu.edu/" target="_blank"> <img src="static/img/cmu-logo.png" style="height:85px;  margin-bottom:10px">
                     </a>
                 </div>
                 <div class="col-lg-3">
