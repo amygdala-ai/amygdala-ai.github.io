@@ -184,35 +184,29 @@ export default class extends AbstractView {
             </div>
         </section>
 
-        <h2 class="liner"> We Have Collaborators From </h2>
-        <section class="container-fluid" style="width: auto !important; margin: 2rem 1rem 1rem 1rem;">
+        <h2 class="liner"> Collaborators From </h2>
+        <section class="collab">
             <div class="row text-center" style="justify-content: space-between;">
-                <div class="col-lg-3">
-                    <a class="link" href="https://www.cmu.edu/" target="_blank"> <img src="static/img/cmu-logo.png" style="height:85px;  margin-bottom:10px">
-                    </a>
-                </div>
-                <div class="col-lg-3">
-                    <a class="link" href="https://ethz.ch/en.html" target="_blank"><img src="static/img/eth-logo.png" style="height:50px; margin-bottom:10px"></a>
-                </div>
-                <div class="col-lg-3">
-                    <a class="link" href="https://kiit.ac.in/" target="_blank"> <img src="static/img/KIIT-logo.png" style="height:50px;  margin-bottom:10px">
-                    </a>
-                </div>
+                <a class="collab-col" href="https://www.cmu.edu/" target="_blank">
+                    <img class="collab-img" src="static/img/collabs/cmu-logo.png">
+                </a>
+                <a class="collab-col" href="https://ethz.ch/en.html" target="_blank">
+                    <img class="collab-img" src="static/img/collabs/eth-logo.png" style="filter: invert(calc(1 - var(--on)));">
+                </a>
+                <a class="collab-col" href="https://kiit.ac.in/" target="_blank">
+                    <img class="collab-img" src="static/img/collabs/KIIT-logo.png">
+                </a>
             </div>
-            <br>
             <div class="row text-center" style="justify-content: space-between;">
-                <div class="col-lg-3">
-                    <a class="link" href="https://www.liverpool.ac.uk/" target="_blank"> <img src="static/img/liverpool-logo.png" style="height:50px;  margin-bottom:10px">
-                    </a>
-                </div>
-                <div class="col-lg-3">
-                    <a class="link" href="https://www.uni-saarland.de/" target="_blank"> <img src="static/img/Saarland-Uni-logo.png" style="height:75px;  margin-bottom:10px">
-                    </a>
-                </div>
-                <div class="col-lg-3">
-                    <a class="link" href="https://www.tum.de/" target="_blank"><img src="static/img/TUM-logo.png" style="height:50px; margin-bottom:10px">
-                    </a>
-                </div>
+                <a class="collab-col" href="https://www.liverpool.ac.uk/" target="_blank">
+                    <img class="collab-img" src="static/img/collabs/liverpool-logo.jpg">
+                </a>
+                <a class="collab-col" href="https://www.uni-saarland.de/" target="_blank">
+                    <img class="collab-img" src="static/img/collabs/saarland-logo.png" style="filter: brightness(calc(0 + var(--on))) invert(calc(1 - var(--on)));">
+                </a>
+                <a class="collab-col" href="https://www.tum.de/" target="_blank">
+                    <img class="collab-img" src="static/img/collabs/TUM-logo.png">
+                </a>
             </div>
         </section>
         `;
