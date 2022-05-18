@@ -22,7 +22,7 @@ a {
   z-index: 20;
   object-fit: contain;
   background-color: white;
-  animation: cssAnimation 0s ease-in 2.5s forwards, fadeOut ease-in-out 3.5s;
+  animation: cssAnimation 0s ease-in 2.5s forwards, fadeOut ease-in-out 2.5s;
   animation-fill-mode: forwards;
 }
 @keyframes cssAnimation {
