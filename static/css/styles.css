@@ -22,10 +22,10 @@ a {
   height: 100vh;
   object-fit: contain;
   background-color: white;
-  animation: cssAnimation 0s ease-in 2.5s forwards, fadeOut ease-in-out 2.5s;
+  animation: hide 0s ease-in 2.4s forwards, fadeOut ease-in-out 2.4s;
   animation-fill-mode: forwards;
 }
-@keyframes cssAnimation {
+@keyframes hide {
   to {
     width: 0;
     height: 0;
@@ -34,7 +34,8 @@ a {
 }
 @keyframes fadeOut {
   0% {opacity: 1;}
-  100% {opacity: 0.001;} 
+  50% {opacity: 1;}
+  100% {opacity: 0;} 
 } 
 
 /* ---- custom scrollbar ---- */
@@ -61,8 +62,7 @@ a {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgb(calc(235 * var(--on) + 20), calc(235 * var(--on) + 20), calc(235 * var(--on) + 20));
-  filter: brightness(80%);
+  background-color: rgb(calc(200 * var(--on) + 25), calc(200 * var(--on) + 25), calc(200 * var(--on) + 25));
 }
 #particles-js canvas {
   display: block;
@@ -230,7 +230,7 @@ a {
   margin-top: 1rem;
   z-index: 1;
   padding: 0 0.5rem 0.5rem 0.5rem;
-  background: rgb(calc(255 * var(--on)), calc(255 * var(--on)), calc(255 * var(--on)));
+  background: rgb(calc(240 * var(--on) + 15), calc(240 * var(--on) + 15), calc(240 * var(--on) + 15));
   color: rgb(calc(255 * (1 - var(--on))), calc(255 * (1 - var(--on))), calc(255 * (1 - var(--on))));
   border: 1px solid var(--color-primary);
   border-radius: 1rem;
@@ -452,14 +452,14 @@ a {
   }
   .inner-container{
     padding: 0 2rem 2rem 2rem;
-    opacity: 0.9;
-    border: 2px solid var(--color-primary);
-    box-shadow: 0 0 10px var(--color-secondary);
+    opacity: 0.92;
+    border: 1px solid var(--color-primary);
+    box-shadow: 0 0 6px var(--color-secondary);
   }
   .inner-container:hover {
     opacity: 1;
-    border: 2px solid var(--color-secondary);
-    box-shadow: 0 0 15px var(--color-secondary);
+    border: 1px solid var(--color-secondary);
+    box-shadow: 0 0 10px var(--color-secondary);
   }
   .img-container{
     width: 50%;

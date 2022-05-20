@@ -115,11 +115,9 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // Display content after intro
-$(document).ready(function(){
-    setTimeout(function(){
-       $("#outer_container").show();
-       $("#footer").show();
-    }, 2500);
+document.getElementById("intro").addEventListener("animationend", () => {
+    $("#outer_container").show();
+    $("#footer").show();
  });
 
 // Scroll to top
