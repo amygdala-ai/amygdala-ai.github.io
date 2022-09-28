@@ -151,21 +151,6 @@
 			"roles": ["mentors"]
 		},
 		{
-			"id": 11,
-			"img": "/static/img/team/rudrashis.jpg",
-			"name": "Rudrashish Das",
-			"position": "B.Tech, Computer Science at KIIT University",
-			"e_mail": "rudrashishdas0@gmail.com",
-			"phone": "",
-			"website": "",
-			"google_scholar": "",
-			"linkedin": "linkedin.com/in/rudrashish-das",
-			"facebook": "",
-			"twitter": "https://twitter.com/RudrashishDas",
-			"bio": "Hey, I am Rudrashish Das, a computer science engineer in making. I am a person who is always learning new skills, technologies and ways to communicate better with my team. What drives me is the desire to face the challenge of solving unsolved problems. Reach out to rudrashishdas0@gmail.com to connect.",
-			"roles": ["interns"]
-		},
-		{
 			"id": 12,
 			"img": "/static/img/team/gyanig.jpg",
 			"name": "Gyanig Kumar",
@@ -523,7 +508,22 @@
 			"facebook": "",
 			"twitter": "",
 			"bio": "Currently pursuing Btech from KIIT university. Interested in Web development, Machine Learning, and competitive programming.",
-			"roles": ["interns"]
+			"roles": ["apprentices"]
+		},
+		{
+			"id": 37,
+			"img": "/static/img/team/purba.jpg",
+			"name": "Sadia Afrin Purba",
+			"position": "Software Engineer II / Machine Learning Engineer",
+			"e_mail": "",
+			"phone": "",
+			"website": "",
+			"google_scholar": "https://scholar.google.com/citations?user=Uc2fkoEAAAAJ&hl=en",
+			"linkedin": "https://sadiaafrinpurba.github.io/",
+			"facebook": "",
+			"twitter": "",
+			"bio": "My passion lies for research in artificial intelligence and implementing machine learning solutions for real life problems. I am working as a Machine Learning Engineer at Infolytx for 2.5+ years. I am experienced in data visualisation, predictive analysis, machine learning algorithms, and deep learning architectures. During my undergrad final year, I was involved with a Natural Language Processing (NLP) research project to determine the emotion from Bangla texts. During this research project, I contributed to the creation of the dataset, feature engineering, and building various linear and deep learning models to predict the emotion from the text and publish the findings. I am the first author of the research paper that has been published at an IEEE flagship conference in 2021.",
+			"roles": ["apprentices"]
 		}
 	]
 }
