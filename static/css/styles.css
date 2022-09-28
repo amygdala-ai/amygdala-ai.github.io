@@ -247,13 +247,13 @@ a {
   text-align: center;
 }
 .carousel-item img {
-  width: 92%;
+  width: 90%;
   margin: auto;
-  height: 25rem;
+  height: 30rem;
   border-radius: 0.5rem;
 }
 .carousel-item .carousel-caption {
-  width: 92%;
+  width: 90%;
   margin: auto;
   left: 0 !important;
   right: 0 !important;
@@ -439,16 +439,16 @@ a {
 .footer {
   display: none;
   z-index: 1;
-  height: 1rem;
   text-align: center;
   color: rgb(calc(255 * (1 - var(--on))), calc(255 * (1 - var(--on))), calc(255 * (1 - var(--on))));
-  margin-top: 1rem;
+  margin-top: 2.5rem;
+  min-height: 2.5rem;
 }
 
 /* ---- media queries ---- */
 @media screen and (min-width: 768px){
   .outer-container{
-    width: 70%;
+    width: 80%;
   }
   .inner-container{
     padding: 0 2rem 2rem 2rem;

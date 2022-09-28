@@ -1,4 +1,16 @@
 [{
+    "title": "Imagen - unprecedented photorealism × deep language understanding",
+    "link": "https://imagen.research.google/",
+    "img": "https://cdn.hackernoon.com/images/557oYHzCMLNnS8E8PEna6I86yN53-lda3fmq.gif",
+    "source": "Google Research"
+},
+{
+    "title": "Stable Diffusion - is AI the greatest artist ever?",
+    "link": "https://stability.ai/blog/stable-diffusion-public-release",
+    "img": "https://images.squarespace-cdn.com/content/v1/6213c340453c3f502425776e/e9173b23-ede6-4004-b69c-7b03fce8872b/Screenshot+2022-08-10+at+15.58.02.png?format=1000w",
+    "source": "stability.ai"
+},
+{
     "title": "DALL·E 2 can create realistic images and art from a description in natural language",
     "link": "https://openai.com/dall-e-2/",
     "img": "https://miro.medium.com/max/875/1*1AvyhFbcc_BrQvPTtglTZw.gif",
@@ -7,7 +19,7 @@
 {
     "title": "Pathways Language Model (PaLM): Scaling to 540 Billion Parameters",
     "link": "https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html",
-    "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLXCWMlipdu0gFF6hsiJHbxg1zSaEkdDWfl-8RakQuW__8RPvlOS9KGIScNCytxT4jz9isnx0GLMwbS1G0Q4WdXzT42GszgfwIIAVX1H3J-43lVWWqcb--q9cPsxCsJFFz2dRfpKgEmLe-xfIyBqQuPq1BPYcK9CtAK1_xnhgvgAAx0GeZmODJxGNMYQ/s16000/image8.gif",
+    "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLXCWMlipdu0gFF6hsiJHbxg1zSaEkdDWfl-8RakQuW__8RPvlOS9KGIScNCytxT4jz9isnx0GLMwbS1G0Q4WdXzT42GszgfwIIAVX1H3J-43lVWWqcb--q9cPsxCsJFFz2dRfpKgEmLe-xfIyBqQuPq1BPYcK9CtAK1_xnhgvgAAx0GeZmODJxGNMYQ/s1600/image8.gif",
     "source": "Google AI Blog"
 },
 {
@@ -25,7 +37,7 @@
 {
     "title": "Teaching AI to translate 100s of spoken and written languages in real time",
     "link": "https://ai.facebook.com/blog/teaching-ai-to-translate-100s-of-spoken-and-written-languages-in-real-time/",
-    "img": "/static/img/news/meta_ai_translate.png",
+    "img": "/static/img/news/meta_ai_translate.jpg",
     "source": "Meta AI"
 }
 ]

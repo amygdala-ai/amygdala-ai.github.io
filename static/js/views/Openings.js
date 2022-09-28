@@ -19,7 +19,7 @@ export default class extends AbstractView {
                     <b style="font-size: 1.25rem; color: teal">Advisors</b> are usually experienced eminent researchers with several prestigious publications in top conferences and journals.
                     Their role is to come up with high level research ideas and lead some sub teams who will implement these ideas.
                     Usually, the professors, postdocs, PhD holders or someone pursuing PhD with good track record are well suited for this role. However, that’s not a strict requirement.
-                    If you are motivated to be one of our advisors, <b>please write to us</b> a short email at <a class="link" href="mailto:amygdalaai@gmail.com">amygdalaai@gmail.com</a> with subject “Advisor position at Amygdala”.
+                    If you are motivated to be one of our advisors, please <b>fill the Google form</b> at the end of this page.
                 </p>
 
                 <p style="text-align: justify">
@@ -36,17 +36,17 @@ export default class extends AbstractView {
                 </p>
                 
                 <p style="text-align: justify">
-                    <b style="font-size: 1.25rem; color: teal">Apprentice</b> is the initial step of being an associate. Role wise it is same as associate but it is kind of a temporary position. After you submit a research paper with us you will be upgraded to associate post. However, even after some reasonable amount of time, if your efforts for making progress is not satisfactory as an aprentice, you may lose the position. 
-                    If you want to join us as an associate, please <b>fill the Google form</b> at the end of this page. You will be given apprentice post initially.
+                    <b style="font-size: 1.25rem; color: teal">Intern</b> is the initial step of being an associate. Role wise it is same as associate but it is kind of a temporary position. After you submit a research paper with us you will be upgraded to associate post. However, even after some reasonable amount of time, if your efforts for making progress is not satisfactory as an intern, you may lose the position. 
+                    If you want to join us as an associate, please <b>fill the Google form</b> at the end of this page. You will be given intern post initially.
                 </p>
 
-                <div class="alert alert-danger" role="alert">
+                <div style="display: none;" class="alert alert-danger" role="alert">
                     <i class="fa fa-exclamation-circle fa-sm"></i> <b>Note: </b>
                     Thank you so much for your interest in Amygdala AI. But unfortunately we have temporarily paused accepting new application. We are going to reopen this application once again after few weeks. So please keep checking.
                 </div>
 
                 <p style="text-align: center; margin-top: 4rem; margin-bottom: 4rem">
-                    <a class="link" style="font-size: 1.5rem" href="https://forms.gle/x7NnwqZHFGAWEWzi7" target="_blank"><i class="fa fa-file-text-o fa-lg"></i><b> Google Form </b></a>
+                    <a class="link" style="font-size: 1.5rem" href="https://forms.gle/zmw6ZzExX47WwsiD8" target="_blank"><i class="fa fa-file-text-o fa-lg"></i><b> Google Form </b></a>
                 </p>
 
                 <div class="alert alert-success" role="alert">

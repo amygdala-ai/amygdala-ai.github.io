@@ -1,5 +1,5 @@
 {
-	"roles": ["founders", "advisors", "mentors", "associates", "apprentices", "web & media"],
+	"roles": ["founders", "advisors", "mentors", "associates", "interns", "web & media"],
 	"people": [{
 			"id": 1,
 			"img": "/static/img/team/rajdeep.jpg",
@@ -163,7 +163,7 @@
 			"facebook": "",
 			"twitter": "https://twitter.com/RudrashishDas",
 			"bio": "Hey, I am Rudrashish Das, a computer science engineer in making. I am a person who is always learning new skills, technologies and ways to communicate better with my team. What drives me is the desire to face the challenge of solving unsolved problems. Reach out to rudrashishdas0@gmail.com to connect.",
-			"roles": ["apprentices"]
+			"roles": ["interns"]
 		},
 		{
 			"id": 12,
@@ -178,7 +178,7 @@
 			"facebook": "",
 			"twitter": "",
 			"bio": "Gyanig Kumar is currently interning at IISc Bangalore as a Research Intern under Prof. Pradipta Biswas at I3D Labs. He is pursuing B.Tech in Computer Science and Systems Engineering from KIIT University. At a young age, he was awarded the Innovation Award for School Children by C.S.I.R India for his IoT project on two-wheeler vehicle safety. He has working knowledge of Robotics and pursuing an interest in computer vision applications, Human-Computer Interactions and Deep learning research.",
-			"roles": ["apprentices"]
+			"roles": ["interns"]
 		},
 		{
 			"id": 13,
@@ -238,7 +238,7 @@
 			"facebook": "",
 			"twitter": "",
 			"bio": "I am a research scholar working in the field of Compilers in IIT Madras. I have work experience in Data Science and Machine Learning and would love to contribute to the research fraternity.",
-			"roles": ["apprentices"]
+			"roles": ["interns"]
 		},
 		{
 			"id": 18,
@@ -253,7 +253,7 @@
 			"facebook": "",
 			"twitter": "",
 			"bio": "I am a final year engineering student in the field of electronics and communication. I am also a software developer intern at SBNRI. I am good in python , Django Framework for backend and Webapp development and also in machine learning and deep learning.",
-			"roles": ["apprentices"]
+			"roles": ["interns"]
 		},
 		{
 			"id": 19,
@@ -268,7 +268,7 @@
 			"facebook": "",
 			"twitter": "",
 			"bio": "Hi, I am young professional looking to build my research profile. I graduated from KIIT in 2021. Have worked with computer vision and CNNs. Did some projects and a conference paper.",
-			"roles": ["apprentices"]
+			"roles": ["interns"]
 		},
 		{
 			"id": 20,
@@ -388,7 +388,7 @@
 			"facebook": "",
 			"twitter": "",
 			"bio": "I am a final year student who has been associated with research in the domain of Computer Vision and Biomedical Image processing for about 2 years and I wish to be a researcher in the future.",
-			"roles": ["apprentices"]
+			"roles": ["interns"]
 		},
 		{
 			"id": 28,
@@ -403,7 +403,7 @@
 			"facebook": "",
 			"twitter": "",
 			"bio": "A research aspirant who holds interests in Deep learning and Computer vision. I did research internship in NIT Rourkela, where basically I am working in the topic of \"Fully Convolutional Network Bootstrapped by Word Encoding and Embedding for Activity Recognition in Smart Homes\", where I basically working on FCN and LSTM Model for Activity Recognition. I also did some research project work related to biomedical sciences, like \"Deep learning algorithms (ResNet-50, VGG-16 model to diagnosis COVID-19 from chest x-ray\" and \"Skin cancer detection by using VGG16 Model and classification using Random Forest\".",
-			"roles": ["apprentices"]
+			"roles": ["interns"]
 		},
 		{
 			"id": 29,
@@ -418,7 +418,7 @@
 			"facebook": "",
 			"twitter": "",
 			"bio": "Hi! I'm Yasmine AbdelHak a software engineer student in ISSATso, currently interested in data science and obtained all 16 Kaggle certificate. A community manager in Theatrical Reformation in Teboulba and a member of IEEE.",
-			"roles": ["apprentices"]
+			"roles": ["interns"]
 		},
 		{
 			"id": 30,
@@ -433,7 +433,7 @@
 			"facebook": "",
 			"twitter": "",
 			"bio": "Rohit Jagtani is a student of Data Science at Ludwig Maximilian University, Munich. He has 3+ years of industry experience in the field of ML where has worked on problems such as Forecasting, Anomaly Detection and Trade Promotion Optimization.",
-			"roles": ["apprentices"]
+			"roles": ["interns"]
 		},
 		{
 			"id": 31,
@@ -448,7 +448,7 @@
 			"facebook": "",
 			"twitter": "https://twitter.com/henokademtew",
 			"bio": "I'm Henok Ademtew, a third year computer science student at Kotebe Metropolitan University. I come from a solid technical background with a strong interest in software engineering and a passion towards problem solving. My area of focus and interest varies from full stack development to algorithms analysis and finding new ways in the world of ML.",
-			"roles": ["apprentices"]
+			"roles": ["interns"]
 		},
 		{
 			"id": 32,
@@ -463,7 +463,7 @@
 			"facebook": "",
 			"twitter": "",
 			"bio": "My name is Vicky and I am a student at Guru Gobind Singh Indraprastha University pursuing Bachelor's in Technology in Computer Science & Engineering. I live in Delhi, India, and looking for opportunities in Germany for a master's program as I am in the final semester. I like to work on real-world problems. I am truly interested in research and so exploring the field of AI through research papers for years, hence I am aware of ANN, CNN, and U-net Architecture. I am interested in research in Artificial Intelligence for Computer Vision.",
-			"roles": ["apprentices"]
+			"roles": ["interns"]
 		},
 		{
 			"id": 33,
@@ -478,7 +478,7 @@
 			"facebook": "",
 			"twitter": "",
 			"bio": "I am Kanak, currently pursuing Integrated Masters in Mathematics & Computing from Birla Institute of Technology, Mesra. I have good knowledge of Image Processing and Deep Learning. I also have a good hands-on understanding of Machine Learning & Deep Learning Libraries in Python such as OpenCV, Tensorflow, and Pytorch. I have experience as a Research Intern at IIT Hyderabad where I worked on image processing and developing novel architectures in the field of Medical Imaging. Previously, I worked as Software Engineer at Rhizicube Technologies where I worked on Backend Development and building Kafka Pipeline.",
-			"roles": ["apprentices"]
+			"roles": ["interns"]
 		},
 		{
 			"id": 34,
@@ -493,7 +493,7 @@
 			"facebook": "",
 			"twitter": "",
 			"bio": "I'm a developer passionate about building deep learning models, generating actionable insights from data, solving real-world problems with technology and creating social impact through active collaboration. I've previously interned as a computer vision engineer at an AI-driven Canadian agrobotics startup and also worked as a Python developer at a AI product development firm, where I implemented real-time gaze tracking and image processing techniques for an automated online exam proctoring system. I've collaborated on an Omdena project, developing an AI model to map school locations in Sudan using high-resolution satellite imagery. My research interests span domains such as biomedical imaging, neuroimaging, federal learning, multimodal deep learning, graph theory and game theory.",
-			"roles": ["apprentices"]
+			"roles": ["interns"]
 		},
 		{
 			"id": 35,
@@ -508,7 +508,7 @@
 			"facebook": "",
 			"twitter": "",
 			"bio": "Hi, I'm Barat Nikhita, UG student at KIIT University in the computer science department. I'm passionate about AI, Machine Learning and Web development.",
-			"roles": ["apprentices"]
+			"roles": ["interns"]
 		},
 		{
 			"id": 36,
@@ -523,7 +523,7 @@
 			"facebook": "",
 			"twitter": "",
 			"bio": "Currently pursuing Btech from KIIT university. Interested in Web development, Machine Learning, and competitive programming.",
-			"roles": ["apprentices"]
+			"roles": ["interns"]
 		}
 	]
 }
