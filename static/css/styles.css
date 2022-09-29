@@ -75,7 +75,7 @@ a {
   display: none;
   flex: 1 0 auto;
   width: 98%;
-  margin: 1rem auto 1rem auto;
+  margin: 1rem auto;
 }
 
 /* ---- scroll to top ---- */
@@ -229,7 +229,7 @@ a {
   position: relative;
   margin-top: 1rem;
   z-index: 1;
-  padding: 0 0.5rem 0.5rem 0.5rem;
+  padding: 1rem;
   background: rgb(calc(240 * var(--on) + 15), calc(240 * var(--on) + 15), calc(240 * var(--on) + 15));
   color: rgb(calc(255 * (1 - var(--on))), calc(255 * (1 - var(--on))), calc(255 * (1 - var(--on))));
   border: 1px solid var(--color-primary);
@@ -237,6 +237,9 @@ a {
 }
 
 /* ---- carousel ---- */
+.carousel {
+  margin-top: 1rem;
+}
 .carousel-indicators {
   position: relative !important;
 }
@@ -451,7 +454,7 @@ a {
     width: 80%;
   }
   .inner-container{
-    padding: 0 2rem 2rem 2rem;
+    padding: 1rem 4rem 2rem;
     opacity: 0.92;
     border: 1px solid var(--color-primary);
     box-shadow: 0 0 6px var(--color-secondary);
