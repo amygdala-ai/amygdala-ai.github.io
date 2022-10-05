@@ -61,21 +61,6 @@
 			"roles": ["mentors"]
 		},
 		{
-			"id": 5,
-			"img": "/static/img/team/mahendra.jpg",
-			"name": "Mahendra Kumar Gourisaria",
-			"position": "Assistant Professor at KIIT",
-			"e_mail": "mkgourisariafcs@kiit.ac.in",
-			"phone": "",
-			"website": "https://cse.kiit.ac.in/profiles/mahendra-kumar-gourisaria/",
-			"google_scholar": "https://scholar.google.co.in/citations?user=ZKpQvqMAAAAJ&hl=en",
-			"linkedin": "",
-			"facebook": "",
-			"twitter": "https://twitter.com/mkgourisaria119",
-			"bio": "Mahendra Kumar Gourisaria is presently working as an Assistant Professor in the School of Computer Engineering at KIIT University, Bhubaneswar, Odisha. He has received his Master degree in Computer Application from Indira Gandhi National Open University, New Delhi and M.Tech in Computer Science and Engineering from Biju Patnaik University of Technology - Rourkela. He is pursuing his Ph.D. from KIIT Deemed to be University. He has an experience of more than 18 years in academia and 7 years in research. He has published more than 20 research papers in different international journals and conferences of repute. He has also served as the organizing committees members of various conferences and workshop. His area of research includes Cloud Computing, Data Mining, Soft Computing and Internet and Web Technology. He is a member of IAENG, UACEE and life member of ISTE, CSI and ISCA.",
-			"roles": ["advisors"]
-		},
-		{
 			"id": 6,
 			"img": "/static/img/team/soham.jpg",
 			"name": "Soham Roy",
@@ -164,21 +149,6 @@
 			"twitter": "",
 			"bio": "Gyanig Kumar is currently interning at IISc Bangalore as a Research Intern under Prof. Pradipta Biswas at I3D Labs. He is pursuing B.Tech in Computer Science and Systems Engineering from KIIT University. At a young age, he was awarded the Innovation Award for School Children by C.S.I.R India for his IoT project on two-wheeler vehicle safety. He has working knowledge of Robotics and pursuing an interest in computer vision applications, Human-Computer Interactions and Deep learning research.",
 			"roles": ["interns"]
-		},
-		{
-			"id": 13,
-			"img": "/static/img/team/dipak.jpg",
-			"name": "Dr. Dipak Kumar Mohanty",
-			"position": "Assistant Professor, KIIT University",
-			"e_mail": "",
-			"phone": "",
-			"website": "",
-			"google_scholar": "https://scholar.google.com/citations?user=zt9USjIAAAAJ&hl=en",
-			"linkedin": "",
-			"facebook": "",
-			"twitter": "",
-			"bio": "Dr. Dipak Kumar Mohanty has 15 years of experience in teaching Computer Science and Mathematics Subjects meant for B.Tech and M.Tech. Students. He completed his MSc. MCA, and  M.Tech in Computer Science from Utkal University Bhubaneswar, Odisha in 2003, 2007, and 2010 respectively. He obtained Ph.D degree in Stochastic Programming using Soft Computing Techniques from IIT Kharagpur, India in 2020. His research area includes Stochastic Programming, Soft Computing, Mullti-criteraia Decision Making, Machine Learning, and Data Science. Now he is working as an Assistant Professor in School of Computer Engineering, KIIT University, Bhubaneswar, Odisha.",
-			"roles": ["advisors"]
 		},
 		{
 			"id": 14,
