@@ -200,22 +200,52 @@
 	},
 	{
 		"id": 21,
-		"title": "A comprehensive survey and analysis of generative models in machine learning",
-		"authors": "GM Harshvardhan, Mahendra Kumar Gourisaria, Manjusha Pandey, Siddharth Swarup Rautaray",
-		"author_ids": [5],
-		"date": "2020/11",
-		"conference": "Computer Science Review",
-		"link": "https://www.sciencedirect.com/science/article/pii/S1574013720303853",
-		"brief": "Generative models have been in existence for many decades. In the field of machine learning, we come across many scenarios when directly learning a target is intractable through discriminative models, and in such cases the joint distribution of the target and the training data is approximated and generated. These generative models help us better represent or model a set of data by generating data in the form of Markov chains or simply employing a generative iterative process to do the same. With the recent innovation of Generative Adversarial Networks (GANs), it is now possible to make use of AI to generate pieces of art, music, etc. with a high extent of realism. In this paper, we review and analyse critically all the generative models, namely Gaussian Mixture Models (GMM), Hidden Markov Models (HMM), Latent Dirichlet Allocation (LDA), Restricted Boltzmann Machines (RBM), Deep Belief Networks (DBN), Deep Boltzmann Machines (DBM), and GANs. We study their algorithms and implement each of the models to provide the reader some insights on which generative model to pick from while dealing with a problem. We also provide some noteworthy contributions done in the past to these models from the literature."
+		"title": "A Deep Learning-Based Efficient Firearms Monitoring Technique for Building Secure Smart Cities",
+		"authors": "Rajdeep Chatterjee, Ankita Chatterjee, Manas Ranjan Pradhan, Biswaranjan Acharya, Tanupriya Choudhury",
+		"author_ids": [1, 4],
+		"date": "2023/4",
+		"conference": "IEE Access",
+		"link": "https://ieeexplore.ieee.org/abstract/document/10099460",
+		"brief": "Violence, in any form, is a disgrace to our civilized world. Nevertheless, even in modern times, violence is an integral part of our society and causes the deaths of many innocent lives. One of the conventional means of violence is using a firearm. Firearm-related deaths are currently a global phenomenon. It is a threat to society and a challenge to law enforcement agencies. A significant portion of such crimes happen in semi-urban areas or cities. Governments and private organizations use CCTV-based surveillance extensively today for prevention and monitoring. However, human-based monitoring requires a significant amount of person-hours as a resource and is prone to mistakes. On the other hand, automated smart surveillance for violent activities is more suitable for scale and reliability. The paper’s main focus is to showcase that deep learning-based techniques can be used in combination to detect firearms (particularly guns). This paper uses different detection techniques, such as Faster Region-Based Convolutional Neural Networks (Faster RCNN) and the latest EfficientDet-based architectures for detecting guns and human faces. An ensemble (stacked) scheme has improved the detection performance to identify human faces and guns at the post-processing level using Non-Maximum Suppression, Non-Maximum Weighted, and Weighted Box Fusion techniques. This paper has empirically discussed the comparative results of various detection techniques and their ensembles. It helps the police gather quick intelligence about the incident and take preventive measures at the earliest. Also, the same technique can be used to identify social media videos for gun-based content detection. Here, the Weighted Box Fusion-based Ensemble Detection Scheme provides mean average precisions 77.02%, 16.40%, 29.73% for the mAP0.5, mAP0.75 and mAP[0.500.95], respectively."
 	},
 	{
 		"id": 22,
-		"title": "Prediction of heart disease by mining frequent items and classification techniques",
-		"authors": "Sinkon Nayak, Mahendra Kumar Gourisaria, Manjusha Pandey, Siddharth Swarup Rautaray",
-		"author_ids": [5],
-		"date": "2019/5",
-		"conference": "International Conference on Intelligent Computing and Control Systems",
-		"link": "https://ieeexplore.ieee.org/abstract/document/9065805/",
-		"brief": "These days immense abstraction of data yields and collected in every instance of time. So to analyze them is the toughest task to do. This immense volume of data has been generated from unlike sources like health care, social media, business applications, manufacturing industries and many more. HealthCare plays a pivotal role in Big Data. Spotting and safeguarding of the diseases at a primitive stage are very much crucial. Heart disease specifically implies the condition of the heart that contracts or obstructs blood vessels which result in pain in chest and heart attack. This paper emphasizes on the diagnosis of heart diseases at a primitive stage so that it will lead to a successful cure of the diseases. In this paper, frequent item mining is used for filtering the attributes and diverse data mining classification method like Decision tree classification, Naive Bayes classification, Support Vector Machine classification, and …"
+		"title": "A Hand Gesture-Based Contact-less Interface for Electronic Health Records",
+		"authors": "Rajdeep Chatterjee, Ankita Chatterjee, SK Hafizul Islam",
+		"author_ids": [1, 4],
+		"date": "2023/4",
+		"conference": "MESIICON, 2022",
+		"link": "https://ieeexplore.ieee.org/abstract/document/10093358",
+		"brief": "Clinical data monitoring and storing are essential components of continuous and preventive healthcare systems. Data such as blood pressure, pulse rate, temperature, etc., can be recorded by the hospital staff daily for in-patient subjects. The usual way of noting them down is to check different parameters using various medical instruments and write it on paper with the corresponding patient's details (e.g., name, patient-id, or government identity card number). However, after the outbreak of COVID-19, there is a set of World Health Organization (WHO) guidelines to behave in public places. Ordinary people and professionals feel hesitant to touch any media even if they have some protection such as gloves and sanitizer. In this crisis, there is a natural demand for contact-less activities instead of touch-based traditional ways. Gesture-based activities might be one of the low-cost alternatives to some sensor-based systems. This paper uses a profound learning-based finger point gesture to capture writing in the air and realize it on the screen through a predictive model. Here, the proposed framework has been demonstrated as a proof of concept to record blood pressure data for multiple patients without touching any electronic screen or paper. The proposed architecture is developed based on the gesture recognition and metric learning, which have been used to recognize different digits trained from the MNIST digit dataset. The mean test accuracy is reached 99.47% on the same dataset."
+	},
+	{
+		"id": 23,
+		"title": "Machine Learning Approaches to Assess Mood of the News Editorial",
+		"authors": "Akshita Sah, Rajdeep Chatterjee, Mahendra Kumar Gourisaria",
+		"author_ids": [8, 1],
+		"date": "2022/8",
+		"conference": "CONECCT, 2022",
+		"link": "https://ieeexplore.ieee.org/abstract/document/9865842",
+		"brief": "Social media and news channels have always been vital sources for spreading information and raising awareness about recent occurrences. As reported by a survey, 82 percent of respondents from India stated that they sourced their news online, which included social media, as of the year 2021, making it a popular form of accessing news1. For a long time, information about COVID - 19 has been one of the most popular topics. News channel networks and editorials were one of the first places where knowledge regarding COVID - 19 was widely disseminated. In this study, sentiment analysis models have been developed to categorize tweets by some of India’s most well-known news stations into positive and negative during the COVID - 19 virus was new in India from June 2020 to July 2020. We attempted to do so by developing nine various models based on different datasets and classification algorithms to investigate the news channels' tweets more thoroughly. According to our findings, the model that provided us with the highest accuracy and performance has been trained using the NLTK Dataset and the Logistic Regression Classifier."
+	},
+	{
+		"id": 24,
+		"title": "A Fast and Effective Machine Learning Approach for Road Cracks Classification",
+		"authors": "Rajdeep Chatterjee, Ankita Chatterjee, Soham Roy, Mahendra Kumar Gourisaria",
+		"author_ids": [1, 4, 6],
+		"date": "2023/2",
+		"conference": "INDICON, 2022",
+		"link": "https://ieeexplore.ieee.org/abstract/document/10039911",
+		"brief": "Road transportation is the backbone of the economic activities of any nation. Millions of commuters use national and state highways and local municipal roads for daily operations. Road maintenance is an indispensable part of the concerned authorities for hassle-free and safe transportation. Poor maintenance of the road and its potholes could cause fatal injuries to the commuters. As the length of these nationwide road networks is overwhelming, the modern-day machine learning-based approach can efficiently detect and classify such a variety of road cracks and send information to the appropriate parties. This paper introduces a straightforward machine learning-guided pipeline that can successfully classify the different types of cracks on the road. It is also compared with state-of-the-art Convolutional Neural Network (CNN) models. Our proposed machine learning approach and different feature selection techniques provide consistent and competitive results in a short training time. It is observed that Orthogonal Matching Pursuit (OMP) outperforms other used feature selectors in terms of selected feature subset size, classification performance, and training time. The final, conclusive result is as high as 97% accuracy obtained from OMP feature selection and Optuna-based tuned Random Forest Classifier."
+	},
+	{
+		"id": 25,
+		"title": "A computer vision-based perceived attention monitoring technique for smart teaching",
+		"authors": "Rajdeep Chatterjee, Rohit Halder, Tanmoy Maitra, Santosh Pani",
+		"author_ids": [1],
+		"date": "2022/12",
+		"conference": "Multimedia Tools and Applications 82 (Springer)",
+		"link": "https://link.springer.com/article/10.1007/s11042-022-14283-z",
+		"brief": "This paper aims to improve the lecture delivery mechanism in real-time in a classroom and remote sessions over web-based applications. In the traditional system, a lecturer observes their students’ attention levels from his/her experience. To date, no system automatically tracks the students’ attention level in a class in real-time (or while the lecturer is delivering his/her lectures remotely over web-based applications). On the other hand, our proposed system periodically will monitor the learning behaviour of the whole class and track the attentiveness of each student. The proposed system is not meant to identify the non-attentive students and punish them. Contrary to the punishment-based mechanism, it introduces a counseling-based mechanism. This deep learning-based real-time face monitoring system will allow lecturers to improvise/her delivery either through bringing diversity in the class contents or personal care to those non-attentive students. The concept of the deep learning technique in an ensemble configuration has been used to predict the likelihood of eyes’ openness. Separately, a student’s facial expressions are also recognized using our Convolutional Neural Network (CNN) model. Finally, the net learning behaviour of a student has been computed by a weighted average of these two features (that is, eyes’ openness and facial expressions). The student learning behaviour is validated twice with Pearson correlation coefficient and Spearman correlation coefficient measures between the openness of eye and facial expressions."
 	}
 ]
